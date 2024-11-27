@@ -1,28 +1,37 @@
-[02:57:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:57:50] [ServerMain/INFO]: No existing world data, creating new world
-[02:57:51] [ServerMain/INFO]: Loaded 1290 recipes
-[02:57:51] [ServerMain/INFO]: Loaded 1399 advancements
-[02:57:51] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[02:57:51] [Server thread/INFO]: Loading properties
-[02:57:51] [Server thread/INFO]: Default game type: SURVIVAL
-[02:57:51] [Server thread/INFO]: Generating keypair
-[02:57:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:57:51] [Server thread/INFO]: Using epoll channel type
-[02:57:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:57:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:57:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:57:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:57:51] [Server thread/INFO]: Preparing level "world"
-[02:57:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:57:56] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[02:57:57] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[02:57:57] [Worker-Main-3/INFO]: Preparing spawn area: 2%
-[02:57:58] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[02:57:58] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[02:57:59] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[02:57:59] [Worker-Main-1/INFO]: Preparing spawn area: 18%
-[02:58:00] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[02:58:00] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[02:58:01] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[02:58:01] [Server thread/INFO]: Time elapsed: 4919 ms
-[02:58:01] [Server thread/INFO]: Done (9.889s)! For help, type "help"
+[03:24:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:24:02] [ServerMain/INFO]: Loaded 1290 recipes
+[03:24:02] [ServerMain/INFO]: Loaded 1399 advancements
+[03:24:03] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[03:24:03] [Server thread/INFO]: Loading properties
+[03:24:03] [Server thread/INFO]: Default game type: SURVIVAL
+[03:24:03] [Server thread/INFO]: Generating keypair
+[03:24:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:24:03] [Server thread/INFO]: Using epoll channel type
+[03:24:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:24:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:24:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:24:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:24:03] [Server thread/INFO]: Preparing level "world"
+[03:24:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:24:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:24:06] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[03:24:06] [Server thread/INFO]: Time elapsed: 564 ms
+[03:24:06] [Server thread/INFO]: Done (2.944s)! For help, type "help"
+[03:24:44] [Server thread/INFO]: GrPatrixYT[/127.50.104.141:38365] logged in with entity id 5 at (3.5, 63.0, -5.5)
+[03:24:44] [Server thread/INFO]: GrPatrixYT joined the game
+[03:24:56] [Server thread/INFO]: xRoma47x[/127.74.153.192:38609] logged in with entity id 199 at (-4.5, 64.0, -5.5)
+[03:24:56] [Server thread/INFO]: xRoma47x joined the game
+[03:25:41] [Server thread/INFO]: GrPatrixYT was slain by xRoma47x
+[03:27:39] [Server thread/INFO]: xRoma47x fell from a high place
+[03:28:37] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[03:28:37] [Server thread/INFO]: GrPatrixYT left the game
+[03:31:17] [Server thread/INFO]: xRoma47x fell from a high place
+[03:31:42] [Server thread/INFO]: You whisper to xRoma47x: xd
+[03:31:47] [Server thread/INFO]: xRoma47x was slain by Zombie
+[03:31:57] [Server thread/INFO]: You whisper to xRoma47x: noob
+[03:32:11] [Server thread/INFO]: xRoma47x has made the advancement [Monster Hunter]
+[03:32:15] [Server thread/INFO]: xRoma47x was slain by Zombie
+[03:32:38] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[03:32:38] [Server thread/INFO]: xRoma47x left the game
+[03:33:29] [Server thread/INFO]: GrPatrixYT[/127.50.104.141:40327] logged in with entity id 3281 at (-17.30000001192093, 64.0, 59.30000001192093)
+[03:33:29] [Server thread/INFO]: GrPatrixYT joined the game
