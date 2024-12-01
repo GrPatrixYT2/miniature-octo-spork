@@ -1,37 +1,310 @@
-[03:24:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:24:02] [ServerMain/INFO]: Loaded 1290 recipes
-[03:24:02] [ServerMain/INFO]: Loaded 1399 advancements
-[03:24:03] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[03:24:03] [Server thread/INFO]: Loading properties
-[03:24:03] [Server thread/INFO]: Default game type: SURVIVAL
-[03:24:03] [Server thread/INFO]: Generating keypair
-[03:24:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:24:03] [Server thread/INFO]: Using epoll channel type
-[03:24:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:24:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:24:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:24:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:24:03] [Server thread/INFO]: Preparing level "world"
-[03:24:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:24:06] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[03:24:06] [Worker-Main-2/INFO]: Preparing spawn area: 18%
-[03:24:06] [Server thread/INFO]: Time elapsed: 564 ms
-[03:24:06] [Server thread/INFO]: Done (2.944s)! For help, type "help"
-[03:24:44] [Server thread/INFO]: GrPatrixYT[/127.50.104.141:38365] logged in with entity id 5 at (3.5, 63.0, -5.5)
-[03:24:44] [Server thread/INFO]: GrPatrixYT joined the game
-[03:24:56] [Server thread/INFO]: xRoma47x[/127.74.153.192:38609] logged in with entity id 199 at (-4.5, 64.0, -5.5)
-[03:24:56] [Server thread/INFO]: xRoma47x joined the game
-[03:25:41] [Server thread/INFO]: GrPatrixYT was slain by xRoma47x
-[03:27:39] [Server thread/INFO]: xRoma47x fell from a high place
-[03:28:37] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
-[03:28:37] [Server thread/INFO]: GrPatrixYT left the game
-[03:31:17] [Server thread/INFO]: xRoma47x fell from a high place
-[03:31:42] [Server thread/INFO]: You whisper to xRoma47x: xd
-[03:31:47] [Server thread/INFO]: xRoma47x was slain by Zombie
-[03:31:57] [Server thread/INFO]: You whisper to xRoma47x: noob
-[03:32:11] [Server thread/INFO]: xRoma47x has made the advancement [Monster Hunter]
-[03:32:15] [Server thread/INFO]: xRoma47x was slain by Zombie
-[03:32:38] [Server thread/INFO]: xRoma47x lost connection: Disconnected
-[03:32:38] [Server thread/INFO]: xRoma47x left the game
-[03:33:29] [Server thread/INFO]: GrPatrixYT[/127.50.104.141:40327] logged in with entity id 3281 at (-17.30000001192093, 64.0, 59.30000001192093)
-[03:33:29] [Server thread/INFO]: GrPatrixYT joined the game
+[01Dec2024 03:06:18.217] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[01Dec2024 03:06:18.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Dec2024 03:06:18.891] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01Dec2024 03:06:19.244] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
+[01Dec2024 03:06:19.245] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[01Dec2024 03:06:19.247] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[01Dec2024 03:06:19.248] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
+[01Dec2024 03:06:19.468] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01Dec2024 03:06:19.470] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[01Dec2024 03:06:22.442] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Dec2024 03:06:22.598] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[01Dec2024 03:06:22.600] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Dec2024 03:06:23.398] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:23.425] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:23.711] [main/WARN] [mixin/]: Error loading class: com/min01/archaeology/item/BrushItem (java.lang.ClassNotFoundException: com.min01.archaeology.item.BrushItem)
+[01Dec2024 03:06:23.711] [main/WARN] [mixin/]: @Mixin target com.min01.archaeology.item.BrushItem was not found cataclysm.mixins.json:BrushItemMixin
+[01Dec2024 03:06:24.334] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[01Dec2024 03:06:27.873] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:27.874] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:27.884] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:27.885] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Dec2024 03:06:29.317] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[01Dec2024 03:06:31.944] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod mutantmonsters
+[01Dec2024 03:06:33.055] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
+[01Dec2024 03:06:33.055] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
+[01Dec2024 03:06:33.467] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[01Dec2024 03:06:34.472] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[01Dec2024 03:06:34.474] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 9
+[01Dec2024 03:06:34.476] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 9 has been initalized!
+[01Dec2024 03:06:34.619] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
+[01Dec2024 03:06:34.963] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Dec2024 03:06:34.975] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[01Dec2024 03:06:35.142] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
+[01Dec2024 03:06:35.142] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
+[01Dec2024 03:06:35.142] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
+[01Dec2024 03:06:35.143] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
+[01Dec2024 03:06:35.143] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
+[01Dec2024 03:06:35.144] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
+[01Dec2024 03:06:35.147] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[01Dec2024 03:06:41.933] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[01Dec2024 03:06:42.451] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[01Dec2024 03:06:42.452] [Thread-0/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[01Dec2024 03:06:42.454] [Thread-0/INFO] [Puzzles Lib/]: Reloading common config for mutantmonsters
+[01Dec2024 03:06:42.659] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[01Dec2024 03:06:42.772] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[01Dec2024 03:06:42.775] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Created README.txt in config folder.
+[01Dec2024 03:06:42.776] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[01Dec2024 03:06:42.810] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Config 'tool_leveling_table.json' was successfully loaded.
+[01Dec2024 03:06:42.818] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Saved the checked/corrected config: tool_leveling_table.json
+[01Dec2024 03:06:42.825] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Config 'item_values.json' was successfully loaded.
+[01Dec2024 03:06:42.826] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Saved the checked/corrected config: item_values.json
+[01Dec2024 03:06:42.827] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Config 'command_config.json' was successfully loaded.
+[01Dec2024 03:06:42.827] [modloading-worker-0/INFO] [com.tristankechlo.toolleveling.ToolLeveling/]: Saved the checked/corrected config: command_config.json
+[01Dec2024 03:06:42.884] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[01Dec2024 03:06:42.896] [modloading-worker-0/INFO] [com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators/]: Mod Loaded
+[01Dec2024 03:06:42.999] [modloading-worker-0/INFO] [com.accbdd.simplevoiceradio.SimpleVoiceRadio/]: Setting up Simple Voice Radio
+[01Dec2024 03:06:43.003] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[01Dec2024 03:06:43.005] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[01Dec2024 03:06:43.028] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[01Dec2024 03:06:43.028] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[01Dec2024 03:06:43.038] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[01Dec2024 03:06:43.040] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'simplevoiceradio'
+[01Dec2024 03:06:43.092] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[01Dec2024 03:06:43.119] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[01Dec2024 03:06:43.259] [Thread-2/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[01Dec2024 03:06:43.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[01Dec2024 03:06:43.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[01Dec2024 03:06:43.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 4.0.6 Target: null
+[01Dec2024 03:06:43.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[01Dec2024 03:06:43.601] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[01Dec2024 03:06:43.601] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[01Dec2024 03:06:43.601] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[01Dec2024 03:06:43.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
+[01Dec2024 03:06:43.606] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[01Dec2024 03:06:43.619] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.40 Target: null
+[01Dec2024 03:06:43.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Dec2024 03:06:43.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.0 Target: 43.4.0
+[01Dec2024 03:06:43.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[01Dec2024 03:06:43.832] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[01Dec2024 03:06:43.834] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01Dec2024 03:06:43.835] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01Dec2024 03:06:43.837] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01Dec2024 03:06:43.837] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01Dec2024 03:06:43.898] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[01Dec2024 03:06:43.905] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[01Dec2024 03:06:43.914] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[01Dec2024 03:06:43.927] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[01Dec2024 03:06:43.930] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[01Dec2024 03:06:43.934] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[01Dec2024 03:06:43.949] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
+[01Dec2024 03:06:44.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.26 Target: null
+[01Dec2024 03:06:44.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[01Dec2024 03:06:44.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-22 Target: null
+[01Dec2024 03:06:44.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Dec2024 03:06:44.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[01Dec2024 03:06:44.747] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[01Dec2024 03:06:44.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.7 Target: null
+[01Dec2024 03:06:44.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://maxanier.de/projects/vampirism/versions.json
+[01Dec2024 03:06:45.271] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: AHEAD Current: 1.9.5 Target: null
+[01Dec2024 03:06:45.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[01Dec2024 03:06:45.288] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[01Dec2024 03:06:45.289] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[01Dec2024 03:06:45.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[01Dec2024 03:06:46.693] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Dec2024 03:06:48.552] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
+[01Dec2024 03:06:48.553] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
+[01Dec2024 03:06:49.922] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[01Dec2024 03:06:50.097] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[01Dec2024 03:06:50.309] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[01Dec2024 03:06:51.073] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+[01Dec2024 03:06:51.469] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[01Dec2024 03:06:52.474] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+[01Dec2024 03:06:52.590] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+[01Dec2024 03:06:52.821] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/cursed_earth_path_from_grass
+com.google.gson.JsonSyntaxException: Unknown item 'regions_unexplored:cursed_grass'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.3.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[01Dec2024 03:06:52.860] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:filling/compat/vampirism/cursed_grass_block
+com.google.gson.JsonSyntaxException: Unknown item 'vampirism:cursed_dirt'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23160!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.3.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[01Dec2024 03:06:52.897] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+[01Dec2024 03:06:52.917] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 35 recipes
+[01Dec2024 03:06:52.918] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[01Dec2024 03:06:53.201] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table cataclysm:archaeology/cursed_pyramid
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:archer_pottery_sherd'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.3.0-universal.jar%23212!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23207!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.3.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[01Dec2024 03:06:53.334] [main/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[01Dec2024 03:06:53.353] [main/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[01Dec2024 03:06:53.523] [main/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[01Dec2024 03:06:53.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Dec2024 03:06:53.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Dec2024 03:06:53.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Dec2024 03:06:53.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Dec2024 03:06:53.658] [main/INFO] [placebo/]: Registered 0 additional loot tables.
+[01Dec2024 03:06:53.665] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 1 modifier groups
+[01Dec2024 03:06:53.724] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[01Dec2024 03:06:53.739] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[01Dec2024 03:06:53.873] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4301 advancements
+[01Dec2024 03:06:53.880] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[01Dec2024 03:06:53.892] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[01Dec2024 03:06:53.902] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[01Dec2024 03:06:53.902] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[01Dec2024 03:06:53.912] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
+[01Dec2024 03:06:53.942] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 12 convertibles
+[01Dec2024 03:06:55.511] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 3.917831ms
+[01Dec2024 03:06:55.520] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[01Dec2024 03:06:55.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[01Dec2024 03:06:55.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Dec2024 03:06:55.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Dec2024 03:06:55.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Dec2024 03:06:55.732] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Dec2024 03:06:55.779] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Dec2024 03:06:55.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Dec2024 03:06:55.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Dec2024 03:06:55.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Dec2024 03:06:55.860] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Dec2024 03:06:56.017] [Server thread/INFO] [Framework/]: Loading server configs...
+[01Dec2024 03:06:56.027] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Dec2024 03:06:56.683] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Hover (#10) on the server
+[01Dec2024 03:06:56.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Dec2024 03:07:02.628] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.631] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.632] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.633] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.634] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.635] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.637] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.638] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.638] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.649] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.650] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.651] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:02.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Dec2024 03:07:03.437] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[01Dec2024 03:07:03.937] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[01Dec2024 03:07:04.423] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7486 ms
+[01Dec2024 03:07:04.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.554s)! For help, type "help"
+[01Dec2024 03:07:04.495] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Dec2024 03:07:04.530] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
+[01Dec2024 03:07:04.534] [Server thread/INFO] [com.accbdd.simplevoiceradio.SimpleVoiceRadio/]: Server starting
+[01Dec2024 03:07:04.565] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[01Dec2024 03:07:04.605] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[01Dec2024 03:07:04.606] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[01Dec2024 03:07:04.607] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[01Dec2024 03:07:04.645] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[01Dec2024 03:07:04.646] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[01Dec2024 03:07:04.647] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[01Dec2024 03:07:04.647] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[01Dec2024 03:07:04.689] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[01Dec2024 03:07:04.696] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01Dec2024 03:07:04.714] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'users-negative.gl.at.ply.gg:1548'
+[01Dec2024 03:07:04.719] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1548
