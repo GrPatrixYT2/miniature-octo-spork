@@ -334,6 +334,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2024-12-14 03:58:49 +0000",
+      "cooked_chicken": "2024-12-14 04:04:16 +0000",
       "rotten_flesh": "2024-12-14 03:38:47 +0000",
       "cooked_mutton": "2024-12-14 02:11:23 +0000"
     },
@@ -928,6 +930,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-12-14 03:59:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 03:24:50 +0000"
@@ -982,9 +990,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-14 04:04:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 03:24:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-14 04:04:26 +0000"
     },
     "done": true
   },

@@ -11,6 +11,7 @@
       "minecraft:beach": "2024-12-14 02:11:37 +0000",
       "minecraft:desert": "2024-12-14 02:55:37 +0000",
       "minecraft:forest": "2024-12-14 03:28:34 +0000",
+      "minecraft:sparse_jungle": "2024-12-14 04:04:42 +0000",
       "minecraft:river": "2024-12-14 02:09:27 +0000",
       "minecraft:lukewarm_ocean": "2024-12-14 02:47:37 +0000",
       "minecraft:stony_shore": "2024-12-14 01:45:46 +0000",
@@ -1079,6 +1080,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 04:01:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 02:47:58 +0000"
@@ -1409,6 +1416,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-12-14 04:01:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2024-12-14 02:59:19 +0000"
@@ -1460,6 +1473,12 @@
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2024-12-14 02:50:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 04:01:24 +0000"
     },
     "done": true
   },
