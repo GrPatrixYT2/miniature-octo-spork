@@ -333,6 +333,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "rotten_flesh": "2024-12-14 03:38:47 +0000",
       "cooked_mutton": "2024-12-14 02:11:23 +0000"
     },
     "done": false
@@ -670,6 +671,12 @@
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-14 03:25:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-12-14 03:40:14 +0000"
     },
     "done": true
   },
