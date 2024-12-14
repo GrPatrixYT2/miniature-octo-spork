@@ -10,6 +10,7 @@
       "minecraft:savanna_plateau": "2024-12-14 01:54:58 +0000",
       "minecraft:beach": "2024-12-14 02:11:37 +0000",
       "minecraft:desert": "2024-12-14 02:55:37 +0000",
+      "minecraft:forest": "2024-12-14 03:28:34 +0000",
       "minecraft:river": "2024-12-14 02:09:27 +0000",
       "minecraft:lukewarm_ocean": "2024-12-14 02:47:37 +0000",
       "minecraft:stony_shore": "2024-12-14 01:45:46 +0000",
@@ -1185,6 +1186,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-14 03:28:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2024-12-14 02:59:19 +0000"
@@ -1196,6 +1203,12 @@
       "has_smelts_to_glass": "2024-12-14 03:13:22 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-14 03:25:32 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
@@ -1413,6 +1426,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-12-14 03:28:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2024-12-14 02:50:20 +0000"
@@ -1428,6 +1447,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 02:47:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-14 03:25:32 +0000"
     },
     "done": true
   },
