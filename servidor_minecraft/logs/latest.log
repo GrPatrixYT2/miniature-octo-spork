@@ -903,3 +903,14 @@
 [05:12:25] [Server thread/INFO]: xRoma47x was slain by Drowned
 [05:13:25] [Server thread/INFO]: luispro110224 lost connection: Disconnected
 [05:13:25] [Server thread/INFO]: luispro110224 left the game
+[05:14:10] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
+[05:14:10] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
+[05:17:51] [Server thread/INFO]: xRoma47x fell from a high place
+[05:21:47] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[05:21:47] [Server thread/INFO]: GrPatrixYT left the game
+[05:22:25] [User Authenticator #6/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[05:22:26] [Server thread/INFO]: GrPatrixYT joined the game
+[05:22:26] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:46243] logged in with entity id 69559 at ([world]-654.5215869460877, 79.0, 78.05272530582961)
+[05:23:09] [Server thread/INFO]: GrPatrixYT issued server command: /skill
+[05:23:12] [Server thread/INFO]: Alipsi issued server command: /skill
+[05:23:15] [Server thread/INFO]: xRoma47x issued server command: /skill
