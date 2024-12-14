@@ -7,11 +7,11 @@ skills:
     level: 0
     xp: 10.0
   auraskills/fishing:
-    level: 0
-    xp: 0.0
+    level: 3
+    xp: 32.5
   auraskills/farming:
     level: 3
-    xp: 514.0
+    xp: 520.5999999999999
   auraskills/foraging:
     level: 5
     xp: 753.4399999999927
@@ -29,7 +29,7 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 4
-    xp: 1345.2104000000002
+    xp: 1542.8104
   auraskills/fighting:
     level: 6
     xp: 902.0000000000003
@@ -47,6 +47,10 @@ trait_modifiers:
     trait: auraskills/foraging_luck
     value: 10.0
   '2':
+    name: fishing_luck_ability
+    trait: auraskills/fishing_luck
+    value: 5.0
+  '3':
     name: farming_luck_ability
     trait: auraskills/farming_luck
     value: 10.0
