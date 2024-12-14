@@ -1097,6 +1097,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-12-14 05:07:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2024-12-14 02:53:10 +0000"

@@ -665,7 +665,8 @@
       "minecraft:spider": "2024-12-14 02:21:39 +0000",
       "minecraft:zombie": "2024-12-14 02:21:30 +0000",
       "minecraft:creeper": "2024-12-14 03:46:55 +0000",
-      "minecraft:zombie_villager": "2024-12-14 04:47:30 +0000"
+      "minecraft:zombie_villager": "2024-12-14 04:47:30 +0000",
+      "minecraft:evoker": "2024-12-14 05:01:53 +0000"
     },
     "done": false
   },
@@ -696,6 +697,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-14 02:14:46 +0000",
+      "bread": "2024-12-14 05:04:26 +0000",
       "cooked_chicken": "2024-12-14 03:10:06 +0000",
       "rotten_flesh": "2024-12-14 02:27:00 +0000",
       "cooked_mutton": "2024-12-14 03:03:54 +0000",
@@ -1189,6 +1191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-14 05:04:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2024-12-14 04:33:47 +0000"
@@ -1225,9 +1233,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2024-12-14 04:33:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
     },
     "done": true
   },
@@ -1243,6 +1263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2024-12-14 04:33:47 +0000"
@@ -1255,9 +1281,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-12-14 05:01:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2024-12-14 04:55:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-12-14 05:07:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-12-14 05:02:29 +0000"
     },
     "done": true
   },
