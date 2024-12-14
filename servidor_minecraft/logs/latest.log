@@ -930,3 +930,7 @@
 [05:52:22] [Server thread/INFO]: Alipsi issued server command: /skillrank
 [05:52:40] [Server thread/INFO]: Alipsi issued server command: /skill
 [05:55:01] [Server thread/INFO]: Alipsi has made the advancement [Fishy Business]
+[06:07:00] [Server thread/INFO]: Alipsi issued server command: /skill
+[06:07:07] [Server thread/INFO]: Alipsi issued server command: /skillrank
+[06:07:18] [Server thread/INFO]: Alipsi lost connection: Disconnected
+[06:07:18] [Server thread/INFO]: Alipsi left the game
