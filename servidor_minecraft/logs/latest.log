@@ -1,937 +1,112 @@
-[02:32:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[02:32:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[02:32:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:32:13] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[02:32:19] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 6125ms.
-[02:32:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[02:32:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[15:01:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[15:01:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[15:01:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:01:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[15:01:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - AngelChest (13.9.0), AuraSkills (2.2.6), RHLeafDecay (1.21_R1), SkinsRestorer (15.5.0)
-[02:32:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:32:40] [ServerMain/INFO]: Loaded 1290 recipes
-[02:32:41] [ServerMain/INFO]: Loaded 1399 advancements
-[02:32:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[02:32:41] [Server thread/INFO]: Loading properties
-[02:32:41] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[02:32:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:32:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:32:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:32:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[02:32:46] [Server thread/INFO]: Default game type: SURVIVAL
-[02:32:46] [Server thread/INFO]: Generating keypair
-[02:32:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:32:46] [Server thread/INFO]: Using epoll channel type
-[02:32:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:32:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:32:48] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
-[02:32:48] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[02:32:48] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[02:32:48] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
-[02:32:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:32:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[02:32:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[02:32:53] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[02:32:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[02:32:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:32:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:32:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:32:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:32:57] [Server thread/INFO]: Preparing level "world"
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[02:32:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:33:02] [Server thread/INFO]: Time elapsed: 3523 ms
-[02:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:33:03] [Server thread/INFO]: Time elapsed: 736 ms
-[02:33:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:33:03] [Server thread/INFO]: Time elapsed: 724 ms
-[02:33:03] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
-[02:33:05] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[02:33:05] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[02:33:06] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[02:33:06] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[02:33:06] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[02:33:07] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[02:33:07] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
-[02:33:07] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[02:33:11] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[02:33:13] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 232 ms
-[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[02:33:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[02:33:15] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[02:33:17] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
-[02:33:17] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
-[02:33:17] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
-[02:33:17] [Server thread/INFO]: [RHLeafDecay] Info:
-[02:33:17] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
-[02:33:17] [Server thread/INFO]: [spark] Starting background profiler...
-[02:33:18] [Server thread/INFO]: Done preparing level "world" (21.251s)
-[02:33:18] [Server thread/INFO]: Running delayed init tasks
-[02:33:19] [User Authenticator #0/INFO]: UUID of player SANS1237843 is 62fed0e1-ff38-36a6-8695-7c50b7f30215
-[02:33:19] [User Authenticator #1/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
-[02:33:20] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[02:33:20] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[02:33:21] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[02:33:21] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[02:33:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:33:22] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[02:33:22] [Server thread/INFO]: Done (76.868s)! For help, type "help"
-[02:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3468ms or 69 ticks behind
-[02:33:22] [Server thread/INFO]: Timings Reset
-[02:33:24] [Server thread/INFO]: luispro110224 joined the game
-[02:33:26] [Server thread/INFO]: luispro110224[/127.104.189.111:38923] logged in with entity id 30 at ([world]-90.5, 47.6875, -143.5)
-[02:33:26] [Server thread/INFO]: SANS1237843 joined the game
-[02:33:26] [Server thread/INFO]: SANS1237843[/127.125.248.218:51865] logged in with entity id 29 at ([world]-403.3301845001045, 63.0, -227.30000001192093)
-[02:33:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 36d87554-4418-4c0f-8971-bc63c010f741, mapped to Bat['Bat'/58, uuid='36d87554-4418-4c0f-8971-bc63c010f741', l='ServerLevel[world]', x=-123.64, y=-50.67, z=-130.36, cpos=[-8, -9], tl=664, v=true], can't add Bat['Bat'/62, uuid='36d87554-4418-4c0f-8971-bc63c010f741', l='ServerLevel[world]', x=-128.56, y=-49.13, z=-128.97, cpos=[-9, -9], tl=772, v=false]
-[02:33:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6a6f62b1-30a5-405d-9adf-8ca664b62584, mapped to Bat['Bat'/107, uuid='6a6f62b1-30a5-405d-9adf-8ca664b62584', l='ServerLevel[world]', x=3.72, y=-0.54, z=-129.45, cpos=[0, -9], tl=270, v=true], can't add Bat['Bat'/112, uuid='6a6f62b1-30a5-405d-9adf-8ca664b62584', l='ServerLevel[world]', x=2.55, y=3.30, z=-126.34, cpos=[0, -8], tl=175, v=false]
-[02:33:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7c07967c-5720-4993-9461-f8a9a8b21422, mapped to Chicken['Chicken'/93, uuid='7c07967c-5720-4993-9461-f8a9a8b21422', l='ServerLevel[world]', x=-391.43, y=66.00, z=-239.52, cpos=[-25, -15], tl=15522, v=true], can't add Chicken['Chicken'/140, uuid='7c07967c-5720-4993-9461-f8a9a8b21422', l='ServerLevel[world]', x=-390.78, y=66.00, z=-242.12, cpos=[-25, -16], tl=15785, v=false]
-[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd0d915f-5eea-40d1-869b-4522f6652abb, mapped to Bat['Bat'/146, uuid='cd0d915f-5eea-40d1-869b-4522f6652abb', l='ServerLevel[world]', x=-403.48, y=-3.55, z=-195.46, cpos=[-26, -13], tl=216, v=true], can't add Bat['Bat'/176, uuid='cd0d915f-5eea-40d1-869b-4522f6652abb', l='ServerLevel[world]', x=-400.29, y=-5.24, z=-189.74, cpos=[-26, -12], tl=17, v=false]
-[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd3e99ba-4190-4325-bcf7-768421107ace, mapped to Bat['Bat'/187, uuid='cd3e99ba-4190-4325-bcf7-768421107ace', l='ServerLevel[world]', x=-347.42, y=-31.93, z=-236.56, cpos=[-22, -15], tl=235, v=true], can't add Bat['Bat'/223, uuid='cd3e99ba-4190-4325-bcf7-768421107ace', l='ServerLevel[world]', x=-348.51, y=-26.94, z=-243.15, cpos=[-22, -16], tl=498, v=false]
-[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f914b1fa-19d6-4f1b-b68c-df9892e1bcd0, mapped to Bat['Bat'/229, uuid='f914b1fa-19d6-4f1b-b68c-df9892e1bcd0', l='ServerLevel[world]', x=-394.54, y=-14.15, z=-294.30, cpos=[-25, -19], tl=1057, v=true], can't add Bat['Bat'/232, uuid='f914b1fa-19d6-4f1b-b68c-df9892e1bcd0', l='ServerLevel[world]', x=-390.34, y=-13.36, z=-309.64, cpos=[-25, -20], tl=1554, v=false]
-[02:33:30] [Server thread/INFO]: [AngelChest] ========================================================
-[02:33:30] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[02:33:30] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[02:33:30] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[02:33:30] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[02:33:30] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[02:33:30] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[02:33:30] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[02:33:30] [Server thread/INFO]: [AngelChest] 
-[02:33:30] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[02:33:30] [Server thread/INFO]: [AngelChest] ========================================================
-[02:33:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45b20bef-f900-4e95-84d5-e3a5fd0e7ee4, mapped to Bat['Bat'/303, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=42.84, y=16.04, z=-183.30, cpos=[2, -12], tl=223, v=true], can't add Bat['Bat'/305, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=49.64, y=17.80, z=-184.89, cpos=[3, -12], tl=445, v=false]
-[02:33:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45b20bef-f900-4e95-84d5-e3a5fd0e7ee4, mapped to Bat['Bat'/303, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=42.84, y=16.04, z=-183.30, cpos=[2, -12], tl=223, v=true], can't add Bat['Bat'/363, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=54.51, y=16.80, z=-193.16, cpos=[3, -13], tl=504, v=false]
-[02:33:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 27473068-a499-43b7-b33c-f2bbd1562cc6, mapped to Turtle['Turtle'/370, uuid='27473068-a499-43b7-b33c-f2bbd1562cc6', l='ServerLevel[world]', x=-429.90, y=56.55, z=-93.51, cpos=[-27, -6], tl=15121, v=true], can't add Turtle['Turtle'/372, uuid='27473068-a499-43b7-b33c-f2bbd1562cc6', l='ServerLevel[world]', x=-433.90, y=60.39, z=-97.12, cpos=[-28, -7], tl=15198, v=false]
-[02:33:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 44be52ac-8bf6-4b06-b921-19539fff32e9, mapped to Cow['Cow'/357, uuid='44be52ac-8bf6-4b06-b921-19539fff32e9', l='ServerLevel[world]', x=-159.29, y=69.00, z=-286.35, cpos=[-10, -18], tl=38554, v=true], can't add Cow['Cow'/396, uuid='44be52ac-8bf6-4b06-b921-19539fff32e9', l='ServerLevel[world]', x=-170.00, y=74.00, z=-289.00, cpos=[-11, -19], tl=34894, v=false]
-[02:33:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d7a7bd67-8866-465c-9151-e5ccdb8ac403, mapped to Armadillo['Armadillo'/394, uuid='d7a7bd67-8866-465c-9151-e5ccdb8ac403', l='ServerLevel[world]', x=-145.76, y=76.00, z=-304.24, cpos=[-10, -20], tl=38209, v=true], can't add Armadillo['Armadillo'/397, uuid='d7a7bd67-8866-465c-9151-e5ccdb8ac403', l='ServerLevel[world]', x=-173.04, y=74.00, z=-292.10, cpos=[-11, -19], tl=34173, v=false]
-[02:33:33] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 51bd9359-e1d1-4010-bdab-3fb385d4be30, mapped to Turtle['Turtle'/413, uuid='51bd9359-e1d1-4010-bdab-3fb385d4be30', l='ServerLevel[world]', x=-495.26, y=59.97, z=-124.61, cpos=[-31, -8], tl=15393, v=true], can't add Turtle['Turtle'/435, uuid='51bd9359-e1d1-4010-bdab-3fb385d4be30', l='ServerLevel[world]', x=-497.46, y=60.00, z=-120.15, cpos=[-32, -8], tl=15445, v=false]
-[02:33:33] [User Authenticator #1/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[02:33:35] [Server thread/INFO]: GrPatrixYT joined the game
-[02:33:35] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:56113] logged in with entity id 438 at ([world]36.5834450163023, 6.0, -201.59489942932996)
-[02:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4761ms or 95 ticks behind
-[02:33:44] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[02:34:05] [User Authenticator #1/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[02:34:07] [Server thread/INFO]: Alipsi joined the game
-[02:34:07] [Server thread/INFO]: Alipsi[/127.223.70.5:58953] logged in with entity id 1027 at ([world]-415.69413475942116, 63.0, -233.04890903068804)
-[02:35:50] [Server thread/INFO]: GrPatrixYT has made the advancement [Not Today, Thank You]
-[02:35:58] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
-[02:36:38] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8c597f6f-f67d-47dc-9d32-b084fc093a64, mapped to Wolf['Wolf'/1465, uuid='8c597f6f-f67d-47dc-9d32-b084fc093a64', l='ServerLevel[world]', x=-272.30, y=71.00, z=-444.70, cpos=[-18, -28], tl=3813, v=true], can't add Wolf['Wolf'/2197, uuid='8c597f6f-f67d-47dc-9d32-b084fc093a64', l='ServerLevel[world]', x=-268.91, y=71.00, z=-448.07, cpos=[-17, -29], tl=50, v=false]
-[02:37:41] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
-[02:39:33] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2b67544c-e31d-482c-95fe-8bc7cbecdafe, mapped to Chicken['Chicken'/2877, uuid='2b67544c-e31d-482c-95fe-8bc7cbecdafe', l='ServerLevel[world]', x=-181.00, y=76.00, z=-463.60, cpos=[-12, -29], tl=1675, v=true], can't add Chicken['Chicken'/3019, uuid='2b67544c-e31d-482c-95fe-8bc7cbecdafe', l='ServerLevel[world]', x=-163.28, y=71.06, z=-440.28, cpos=[-11, -28], tl=5157, v=false]
-[02:42:08] [Server thread/INFO]: SANS1237843 has made the advancement [Acquire Hardware]
-[02:42:09] [Server thread/INFO]: GrPatrixYT issued server command: /tp 63 8 -284
-[02:42:09] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to 63.500000, 8.000000, -283.500000]
-[02:43:30] [Server thread/INFO]: GrPatrixYT lost connection: Timed out
-[02:43:30] [Server thread/INFO]: GrPatrixYT left the game
-[02:43:40] [User Authenticator #2/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[02:43:41] [Server thread/INFO]: GrPatrixYT joined the game
-[02:43:41] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:46373] logged in with entity id 4324 at ([world]60.957700948211354, 8.0, -276.95707846764464)
-[02:44:33] [Server thread/INFO]: Alipsi has made the advancement [A Seedy Place]
-[02:44:48] [Server thread/INFO]: SANS1237843 has made the advancement [What a Deal!]
-[02:45:37] [Server thread/INFO]: GrPatrixYT has made the advancement [Suit Up]
-[02:46:39] [Server thread/INFO]: Alipsi has made the advancement [What a Deal!]
-[02:50:20] [Server thread/INFO]: GrPatrixYT has made the advancement [Diamonds!]
-[02:50:25] [Server thread/INFO]: SANS1237843 has made the advancement [Not Today, Thank You]
-[02:50:58] [Server thread/INFO]: Alipsi was shot by Skeleton
-[02:52:20] [Server thread/INFO]: SANS1237843 has made the advancement [Getting an Upgrade]
-[02:53:55] [Server thread/INFO]: SANS1237843 was blown up by Creeper
-[02:59:36] [Server thread/INFO]: GrPatrixYT has made the advancement [Ice Bucket Challenge]
-[03:00:26] [User Authenticator #3/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
-[03:00:27] [Server thread/INFO]: xRoma47x joined the game
-[03:00:27] [Server thread/INFO]: xRoma47x[/127.74.153.192:36439] logged in with entity id 10568 at ([world]-179.01681567823712, 77.0, -442.973720567817)
-[03:02:46] [Server thread/INFO]: GrPatrixYT issued server command: /msg 220 -55 -117
-[03:02:55] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x 200 -55 -117
-[03:03:34] [Server thread/INFO]: Alipsi has made the advancement [The Parrots and the Bats]
-[03:07:57] [Server thread/INFO]: xRoma47x has made the advancement [Sweet Dreams]
-[03:09:25] [Server thread/INFO]: Alipsi was slain by Zombie
-[03:09:36] [Server thread/INFO]: Alipsi was slain by Zombie
-[03:10:30] [Server thread/INFO]: SANS1237843 was blown up by Creeper
-[03:12:16] [Server thread/INFO]: luispro110224 was slain by Zombie
-[03:13:16] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:13:21] [Server thread/INFO]: Villager Villager['Villager'/126, uuid='e3e369c7-a824-4b1b-ab90-7dd3df76c841', l='ServerLevel[world]', x=-419.76, y=63.00, z=-229.66, cpos=[-27, -15], tl=62107, v=true] died, message: 'Villager was slain by Zombie'
-[03:13:38] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:14:00] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:14:11] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x 275 -147
-[03:14:19] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:14:31] [Server thread/INFO]: Villager Villager['Weaponsmith'/141, uuid='48b1c721-eda4-40f0-a4a2-c5fd6747a20e', l='ServerLevel[world]', x=-403.46, y=63.56, z=-228.00, cpos=[-26, -15], tl=65058, v=true] died, message: 'Weaponsmith was slain by Zombie'
-[03:14:38] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:14:57] [Server thread/INFO]: SANS1237843 was slain by Spider
-[03:15:24] [Server thread/INFO]: Alipsi was shot by Skeleton
-[03:16:21] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:17:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:17:59] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:07] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:14] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:19] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:32] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:36] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:41] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:18:50] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:19:02] [Async Chat Thread - #4/INFO]: [Not Secure] <GrPatrixYT> coords de la masacre?
-[03:19:15] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:21] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:30] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:34] [Server thread/WARN]: Acacia Boat (vehicle of GrPatrixYT) moved wrongly! 3.657617800098414
-[03:19:36] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:41] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:48] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:19:53] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:01] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:04] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:09] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x SANS1237843
-[03:20:09] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to SANS1237843]
-[03:20:09] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:14] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x
-[03:20:14] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to xRoma47x]
-[03:20:17] [Async Chat Thread - #6/INFO]: [Not Secure] <SANS1237843> fuera causa andamos farmeando
-[03:20:20] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:26] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:20:34] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:38] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:20:40] [Server thread/INFO]: Alipsi was slain by xRoma47x
-[03:20:48] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:20:57] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:21:06] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:21:07] [Async Chat Thread - #6/INFO]: [Not Secure] <GrPatrixYT> q hacen :v?
-[03:21:14] [Async Chat Thread - #6/INFO]: [Not Secure] <SANS1237843> farmeando xd
-[03:21:35] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:21:45] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:21:49] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:21:53] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:21:56] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:21:59] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:22:02] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:22:05] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:22:09] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:15] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:20] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:30] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:36] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:41] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:22:45] [Server thread/INFO]: SANS1237843 was slain by GrPatrixYT
-[03:22:50] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:22:55] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:23:17] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:23:25] [Server thread/INFO]: SANS1237843 was slain by xRoma47x
-[03:23:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:23:56] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:24:09] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:24:37] [Server thread/INFO]: GrPatrixYT issued server command: /tp SANS1237843 Alipsi
-[03:24:37] [Server thread/INFO]: [GrPatrixYT: Teleported SANS1237843 to Alipsi]
-[03:24:55] [Server thread/INFO]: luispro110224 has made the advancement [Diamonds!]
-[03:25:32] [Server thread/INFO]: GrPatrixYT has made the advancement [The Parrots and the Bats]
-[03:28:53] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[03:29:11] [Server thread/INFO]: luispro110224 has made the advancement [Monster Hunter]
-[03:29:16] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[03:29:20] [Server thread/INFO]: luispro110224 has made the advancement [Minecraft: Trial(s) Edition]
-[03:30:02] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[03:30:47] [Server thread/INFO]: GrPatrixYT has made the advancement [Sweet Dreams]
-[03:31:08] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:14] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:19] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:26] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:31] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:35] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:40] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:44] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:48] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:55] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:31:59] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:32:04] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:32:09] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:32:14] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:32:22] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:32:30] [Server thread/INFO]: xRoma47x issued server command: /msg GrPatrixYT yo le robe la caña xddd
-[03:33:27] [Server thread/INFO]: [AngelChest] Removed 1 old log files.
-[03:34:24] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[03:34:39] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:34:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:00] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:02] [Server thread/INFO]: luispro110224 was slain by Spider
-[03:35:05] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:10] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:14] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:20] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:26] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:33] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:42] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:47] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:35:56] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:00] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:05] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:09] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:16] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:20] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:29] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:33] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:37] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:42] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:36:42] [Server thread/INFO]: luispro110224 was blown up by Creeper
-[03:37:05] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:10] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:19] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:29] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:34] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:37] [Server thread/INFO]: luispro110224 was blown up by Creeper
-[03:37:38] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:44] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:37:50] [Server thread/WARN]: luispro110224 moved too quickly! -0.037531845675502495,-9.984097187292637,0.8409034820310524
-[03:37:55] [Server thread/INFO]: GrPatrixYT has made the advancement [We Need to Go Deeper]
-[03:38:01] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[03:38:02] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:09] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:13] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:17] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:21] [Server thread/INFO]: xRoma47x has made the advancement [We Need to Go Deeper]
-[03:38:22] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:53] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:38:58] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:03] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:07] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:11] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:16] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:20] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:24] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:29] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:34] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:40] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:45] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:48] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:39:53] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:40:14] [Server thread/INFO]: luispro110224 has made the advancement [Suit Up]
-[03:40:20] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:40:26] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:40:32] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:40:37] [Server thread/INFO]: Alipsi was slain by SANS1237843
-[03:40:57] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:03] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:08] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:12] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:17] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:21] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:41:32] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:42:20] [Server thread/INFO]: Alipsi was slain by Zombie
-[03:42:37] [Server thread/INFO]: GrPatrixYT has made the advancement [A Seedy Place]
-[03:43:32] [Server thread/INFO]: Alipsi was slain by Zombie
-[03:43:39] [Server thread/INFO]: SANS1237843 was slain by Zombie
-[03:43:51] [Server thread/INFO]: Alipsi was slain by Zombie
-[03:43:55] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[03:44:20] [Async Chat Thread - #9/INFO]: [Not Secure] <xRoma47x> zzzzzzzzzzz
-[03:45:12] [Async Chat Thread - #9/INFO]: [Not Secure] <xRoma47x> ZZZZZZZZZZZZZZZZZZ
-[03:46:21] [Async Chat Thread - #11/INFO]: [Not Secure] <xRoma47x> zzzzzzzzzzzzZZZZZZZZZZZzzzzZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzZZZzZZZZZZZZZZZZZZZZzzzzzzzzzzzzzzzzzzzzzzz
-[03:46:48] [Server thread/INFO]: xRoma47x has made the advancement [Take Aim]
-[03:47:17] [Server thread/WARN]: luispro110224 moved too quickly! -2.0581540150926116,0.16610926093821377,10.12341066238153
-[03:47:35] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:47:39] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:47:42] [Server thread/INFO]: luispro110224 drowned
-[03:47:44] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:47:47] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:47:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:47:57] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:00] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:04] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:09] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:14] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 SANS1237843
-[03:48:14] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to SANS1237843]
-[03:48:21] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:25] [Server thread/INFO]: xRoma47x has made the advancement [Diamonds!]
-[03:48:34] [Server thread/INFO]: luispro110224 was slain by Alipsi
-[03:48:38] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:42] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:47] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:50] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:54] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:48:58] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:02] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:05] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:12] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:16] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:20] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:29] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:35] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:43] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:44] [Server thread/INFO]: xRoma47x has made the advancement [A Seedy Place]
-[03:49:47] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:51] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:49:54] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 SANS1237843
-[03:49:54] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to SANS1237843]
-[03:49:56] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:50:03] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:50:07] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:50:23] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[03:50:35] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:50:43] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:50:49] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:50:56] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:51:04] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:51:53] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x me cago de hambre voy a buscar algo de comer xd
-[03:52:16] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:21] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:26] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:30] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:33] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:36] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:39] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:43] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:49] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:53] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:52:56] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:00] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:03] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:06] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:09] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:16] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:20] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:23] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:27] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:32] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:38] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:42] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:46] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:50] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:53:55] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:01] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:05] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:08] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:12] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:17] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:23] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:27] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:31] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:36] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:39] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:54:55] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:55:10] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:55:21] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:55:28] [Server thread/INFO]: luispro110224 was slain by SANS1237843
-[03:55:47] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[03:58:46] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x negro donde andas?
-[03:58:52] [Async Chat Thread - #16/INFO]: [Not Secure] <xRoma47x> aca abajo
-[03:59:22] [Server thread/INFO]: luispro110224 was slain by Alipsi
-[03:59:25] [Server thread/INFO]: SANS1237843 was slain by Alipsi
-[04:08:40] [Server thread/INFO]: luispro110224 has made the advancement [Not Today, Thank You]
-[04:09:22] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[04:10:22] [Server thread/INFO]: GrPatrixYT issued server command: /skill
-[04:10:35] [Async Chat Thread - #17/INFO]: [Not Secure] <GrPatrixYT> ./skill
-[04:10:41] [Server thread/INFO]: SANS1237843 issued server command: /skill
-[04:10:43] [Server thread/INFO]: xRoma47x issued server command: /skill
-[04:10:52] [Async Chat Thread - #17/INFO]: [Not Secure] <Alipsi> ./skill
-[04:11:04] [Server thread/INFO]: luispro110224 issued server command: /skill
-[04:11:15] [Server thread/INFO]: Alipsi issued server command: /skill
-[04:11:39] [Server thread/INFO]: xRoma47x issued server command: /skill
-[04:11:40] [Server thread/INFO]: luispro110224 issued server command: /skillrank
-[04:11:59] [Server thread/INFO]: GrPatrixYT issued server command: /farming
-[04:12:06] [Server thread/INFO]: luispro110224 issued server command: /skilltop
-[04:12:06] [Server thread/INFO]: GrPatrixYT issued server command: /skill
-[04:12:14] [Server thread/INFO]: luispro110224 was slain by Zombie
-[04:12:14] [Server thread/INFO]: Alipsi issued server command: /skill
-[04:13:28] [Server thread/INFO]: Alipsi has made the advancement [We Need to Go Deeper]
-[04:14:24] [Server thread/INFO]: Villager Villager['Leatherworker'/154, uuid='e951b3b0-101d-4799-8741-c53b992c4c61', l='ServerLevel[world]', x=-404.18, y=63.00, z=-228.98, cpos=[-26, -15], tl=135465, v=true] died, message: 'Leatherworker was slain by Zombie'
-[04:14:48] [Server thread/INFO]: Villager Villager['Villager'/204, uuid='6e46bdfe-ebae-4672-bf93-b7889e7feb05', l='ServerLevel[world]', x=-386.65, y=63.00, z=-216.06, cpos=[-25, -14], tl=136024, v=true] died, message: 'Villager was slain by Zombie'
-[04:14:51] [Server thread/INFO]: Villager Villager['Weaponsmith'/38, uuid='646c9302-429c-49cd-87d7-73147ffd744d', l='ServerLevel[world]', x=-385.48, y=63.00, z=-215.59, cpos=[-25, -14], tl=137441, v=true] died, message: 'Weaponsmith was slain by Zombie'
-[04:15:49] [Server thread/INFO]: Alipsi has made the advancement [Ice Bucket Challenge]
-[04:16:05] [Server thread/INFO]: GrPatrixYT issued server command: /stats
-[04:16:18] [Server thread/INFO]: Villager Villager['Weaponsmith'/130, uuid='d56a08c9-7d74-4882-be7b-be156d9c73c0', l='ServerLevel[world]', x=-408.40, y=64.00, z=-186.48, cpos=[-26, -12], tl=139019, v=true] died, message: 'Weaponsmith was slain by Zombie'
-[04:16:20] [Async Chat Thread - #19/INFO]: [Not Secure] <GrPatrixYT> ./stats
-[04:16:27] [Server thread/INFO]: SANS1237843 issued server command: /skillrank
-[04:16:32] [Server thread/INFO]: xRoma47x issued server command: /stats
-[04:16:45] [Server thread/INFO]: SANS1237843 issued server command: /stats
-[04:16:49] [Server thread/INFO]: Alipsi was killed by Witch using magic
-[04:17:04] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:17:29] [Server thread/INFO]: SANS1237843 was slain by Zombie
-[04:17:39] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[04:17:50] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:17:53] [Server thread/INFO]: GrPatrixYT issued server command: /sk lang es
-[04:18:25] [Server thread/INFO]: luispro110224 was shot by Skeleton
-[04:18:39] [Async Chat Thread - #21/INFO]: [Not Secure] <GrPatrixYT> ./sk lang es
-[04:18:48] [Server thread/INFO]: SANS1237843 issued server command: /sk lang es
-[04:18:50] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:18:55] [Async Chat Thread - #21/INFO]: [Not Secure] <Alipsi> ./sk lang es
-[04:19:13] [Server thread/INFO]: xRoma47x issued server command: /sk lang
-[04:19:25] [Server thread/INFO]: Alipsi issued server command: /sk lang
-[04:19:31] [Server thread/INFO]: xRoma47x issued server command: /sk lang es
-[04:19:38] [Server thread/INFO]: Alipsi issued server command: /sk lang es
-[04:19:49] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[04:20:16] [Server thread/INFO]: xRoma47x lost connection: Disconnected
-[04:20:16] [Server thread/INFO]: xRoma47x left the game
-[04:21:02] [User Authenticator #4/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
-[04:21:03] [Server thread/INFO]: xRoma47x joined the game
-[04:21:03] [Server thread/INFO]: xRoma47x[/127.74.153.192:44945] logged in with entity id 46307 at ([world]-620.2376716042045, 73.0, 7.715178610031067)
-[04:26:47] [Server thread/INFO]: GrPatrixYT issued server command: /skill
-[04:28:26] [Async Chat Thread - #23/INFO]: [Not Secure] <SANS1237843> -404 62 -213
-[04:28:44] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 -404 50000 -213
-[04:28:44] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to -403.500000, 50000.000000, -212.500000]
-[04:29:21] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:31:22] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 -404 1000 -213
-[04:31:22] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to -403.500000, 1000.000000, -212.500000]
-[04:32:36] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:32:39] [Server thread/INFO]: GrPatrixYT issued server command: /mana
-[04:32:43] [Server thread/INFO]: Alipsi issued server command: /skill
-[04:33:39] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[04:35:07] [Server thread/INFO]: Alipsi was slain by luispro110224
-[04:35:21] [Server thread/INFO]: Alipsi was slain by luispro110224
-[04:35:38] [Server thread/INFO]: SANS1237843 was slain by luispro110224
-[04:35:42] [Server thread/INFO]: luispro110224 was slain by Alipsi
-[04:36:09] [Server thread/INFO]: Alipsi was slain by luispro110224
-[04:36:32] [Server thread/INFO]: luispro110224 was slain by Alipsi
-[04:36:36] [Server thread/INFO]: GrPatrixYT issued server command: /
-[04:37:01] [Server thread/INFO]: GrPatrixYT issued server command: /farming
-[04:37:04] [Server thread/INFO]: GrPatrixYT issued server command: /stats
-[04:37:27] [Server thread/INFO]: xRoma47x issued server command: /skill
-[04:37:53] [Server thread/INFO]: luispro110224 has made the advancement [A Seedy Place]
-[04:40:03] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
-[04:40:03] [Server thread/INFO]: GrPatrixYT left the game
-[04:40:30] [Server thread/INFO]: xRoma47x issued server command: /skill
-[04:40:36] [User Authenticator #5/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[04:40:40] [Server thread/INFO]: GrPatrixYT joined the game
-[04:40:40] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:54861] logged in with entity id 52481 at ([world]-654.9853077755238, 78.08374141950112, 81.91568577087865)
-[04:40:47] [Server thread/INFO]: luispro110224 has made the advancement [What a Deal!]
-[04:41:59] [Server thread/INFO]: xRoma47x issued server command: /skill
-[04:42:41] [Server thread/INFO]: GrPatrixYT has made the advancement [Voluntary Exile]
-[04:43:07] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x g
-[04:43:13] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:43:13] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:43:31] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x mira
-[04:43:44] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x sabes quien esta en una aldea xd?
-[04:43:55] [Async Chat Thread - #25/INFO]: [Not Secure] <GrPatrixYT> vente
-[04:44:23] [Server thread/INFO]: xRoma47x issued server command: /msg GrPatrixYT vamonos
-[04:44:48] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x g
-[04:44:54] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:44:54] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:46:36] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:46:38] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:46:44] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:46:52] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:47:12] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:47:35] [Server thread/INFO]: luispro110224 has made the advancement [Voluntary Exile]
-[04:47:38] [Server thread/INFO]: GrPatrixYT issued server command: /tp Alipsi SANS1237843
-[04:47:38] [Server thread/INFO]: [GrPatrixYT: Teleported Alipsi to SANS1237843]
-[04:47:41] [Server thread/INFO]: SANS1237843 was slain by Zombie
-[04:48:05] [Server thread/INFO]: Alipsi was slain by Zombie
-[04:48:53] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:48:53] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:48:55] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:49:09] [Server thread/INFO]: GrPatrixYT issued server command: /tp -398 66 -244
-[04:49:09] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to -397.500000, 66.000000, -243.500000]
-[04:49:16] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:49:16] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:49:52] [Server thread/INFO]: Alipsi has made the advancement [Voluntary Exile]
-[04:51:13] [Server thread/INFO]: Alipsi was shot by Skeleton
-[04:51:26] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[04:51:29] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of SANS1237843 at Location{world=CraftWorld{name=world},x=-370.0,y=67.0,z=-268.0,pitch=0.0,yaw=0.0}
-[04:51:42] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:51:42] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:51:45] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:51:47] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:51:50] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:00] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:52:06] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:52:11] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:52:12] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:52:16] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:16] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:52:17] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:52:21] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:52:32] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:52:32] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:52:36] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:40] [Server thread/INFO]: SANS1237843 has made the advancement [Suit Up]
-[04:52:40] [Server thread/INFO]: SANS1237843 has made the advancement [Isn't It Iron Pick]
-[04:52:41] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:45] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:46] [Server thread/INFO]: SANS1237843 was shot by Pillager
-[04:52:51] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:52:53] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:52:54] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:52:55] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:52:56] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:52:57] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:02] [Server thread/INFO]: xRoma47x was shot by Pillager
-[04:53:04] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:08] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:08] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:53:10] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:53:12] [Server thread/INFO]: GrPatrixYT issued server command: /tp -407 64 -232
-[04:53:12] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to -406.500000, 64.000000, -231.500000]
-[04:53:12] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:53:13] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:53:15] [Server thread/INFO]: SANS1237843 was shot by Pillager
-[04:53:21] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:53:24] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:24] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:53:24] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:53:26] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:29] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:32] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[04:53:32] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:33] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of SANS1237843 at Location{world=CraftWorld{name=world},x=-377.0,y=67.0,z=-252.0,pitch=0.0,yaw=0.0}
-[04:53:33] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:53:37] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:39] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:53:42] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:53:43] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:53:44] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:53:46] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:53:47] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:53:51] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:53:51] [Server thread/INFO]: Alipsi was slain by Ravager
-[04:53:52] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:53:55] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:53:55] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:54:04] [Server thread/INFO]: luispro110224 was slain by Ravager
-[04:54:08] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:54:11] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:54:11] [Server thread/INFO]: luispro110224 was slain by Vex
-[04:54:14] [Server thread/INFO]: SANS1237843 was blown up by Creeper
-[04:54:14] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:54:16] [Server thread/INFO]: Alipsi was shot by Pillager
-[04:54:18] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:54:18] [Async Chat Thread - #27/INFO]: [Not Secure] <xRoma47x> tpppppp
-[04:54:22] [Server thread/INFO]: GrPatrixYT has reached the goal [Postmortal]
-[04:54:25] [Server thread/INFO]: Alipsi was slain by Vex
-[04:54:30] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:54:37] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:54:37] [Async Chat Thread - #28/INFO]: [Not Secure] <xRoma47x> tptptptppttptppt
-[04:54:42] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:54:46] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:54:50] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:54:54] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:54:54] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:54:57] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-388.0,y=67.0,z=-254.0,pitch=0.0,yaw=0.0}
-[04:54:59] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of SANS1237843 at Location{world=CraftWorld{name=world},x=-391.0,y=66.0,z=-259.0,pitch=0.0,yaw=0.0}
-[04:55:04] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[04:55:06] [Server thread/INFO]: xRoma47x was slain by Vex
-[04:55:10] [Server thread/INFO]: SANS1237843 was slain by Vex
-[04:55:11] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[04:55:13] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:55:16] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:55:21] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:55:25] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:55:26] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:55:30] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[04:55:30] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[04:55:34] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:55:36] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-400.0,y=66.0,z=-250.0,pitch=0.0,yaw=0.0}
-[04:55:37] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[04:55:37] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:55:46] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-400.0,y=66.0,z=-250.0,pitch=0.0,yaw=0.0}
-[04:55:57] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-388.0,y=67.0,z=-254.0,pitch=0.0,yaw=0.0}
-[04:55:58] [Server thread/INFO]: Alipsi was slain by Vex
-[04:56:43] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:56:48] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:56:49] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:56:53] [Server thread/INFO]: xRoma47x was slain by Vex
-[04:57:01] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:57:06] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:57:08] [Server thread/INFO]: Alipsi was slain by Vex
-[04:57:11] [Server thread/INFO]: SANS1237843 was slain by Vex
-[04:57:23] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:57:23] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:57:29] [Server thread/INFO]: Alipsi was slain by Vex
-[04:57:44] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:57:46] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:57:46] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:57:48] [Server thread/INFO]: xRoma47x was slain by Vex
-[04:57:54] [Server thread/INFO]: GrPatrixYT has made the advancement [Take Aim]
-[04:57:55] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:57:57] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:57:59] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:58:04] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:58:10] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:59:07] [Server thread/INFO]: luispro110224 was slain by Ravager
-[04:59:08] [Server thread/INFO]: xRoma47x was slain by Ravager
-[04:59:12] [Server thread/INFO]: SANS1237843 was slain by Vex
-[04:59:19] [Server thread/INFO]: xRoma47x was shot by Pillager
-[04:59:21] [Server thread/INFO]: SANS1237843 was killed by Evoker using magic
-[04:59:23] [Server thread/INFO]: Alipsi was slain by Vex
-[04:59:26] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:59:28] [Server thread/INFO]: SANS1237843 was killed by Evoker using magic
-[04:59:30] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:59:30] [Server thread/INFO]: Alipsi was slain by Vindicator
-[04:59:32] [Server thread/INFO]: xRoma47x was slain by Vex
-[04:59:34] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[04:59:36] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:59:36] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[04:59:38] [Server thread/INFO]: luispro110224 was killed by Evoker using magic
-[04:59:40] [Server thread/INFO]: Alipsi was slain by Vex
-[04:59:44] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:59:47] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[04:59:47] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[04:59:50] [Server thread/INFO]: Alipsi was slain by Vex
-[04:59:54] [Server thread/INFO]: SANS1237843 was slain by Vex
-[04:59:55] [Server thread/INFO]: xRoma47x was slain by Vex
-[04:59:58] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:00] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:00:01] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[05:00:04] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:05] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:08] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:08] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-404.0,y=63.0,z=-229.0,pitch=0.0,yaw=0.0}
-[05:00:10] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:00:11] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:15] [Server thread/INFO]: [AngelChest] luispro110224 opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-404.0,y=63.0,z=-229.0,pitch=0.0,yaw=0.0}
-[05:00:15] [Server thread/INFO]: Alipsi was slain by Vex
-[05:00:18] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:18] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:00:25] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:00:25] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:00:28] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:00:30] [Server thread/INFO]: GrPatrixYT was killed by Evoker using magic
-[05:00:31] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:33] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:00:35] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:00:40] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:00:40] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:40] [Server thread/INFO]: SANS1237843 was shot by Pillager
-[05:00:41] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:00:43] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:46] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:00:48] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:49] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:00:50] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:00:52] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:55] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:00:55] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:00:56] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:00:59] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:01:02] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:01:03] [Server thread/INFO]: Alipsi was slain by luispro110224
-[05:01:05] [Server thread/INFO]: luispro110224 was killed by Evoker using magic
-[05:01:06] [Server thread/INFO]: [AngelChest] Alipsi opened the AngelChest of luispro110224 at Location{world=CraftWorld{name=world},x=-406.0,y=64.0,z=-227.0,pitch=0.0,yaw=0.0}
-[05:01:07] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:01:07] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:12] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:01:17] [Server thread/INFO]: luispro110224 was killed by Evoker using magic
-[05:01:22] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:01:26] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:01:27] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:30] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:32] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:01:33] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:01:37] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:01:40] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:01:44] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:50] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:51] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:01:55] [Server thread/INFO]: Alipsi was slain by Vex
-[05:01:58] [Server thread/INFO]: xRoma47x has reached the goal [Postmortal]
-[05:02:00] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:02:02] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:02:09] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:02:17] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:02:19] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:02:20] [Server thread/INFO]: Alipsi has reached the goal [Postmortal]
-[05:02:22] [Server thread/INFO]: Alipsi was slain by Vex
-[05:02:22] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:02:26] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:02:33] [Server thread/INFO]: [AngelChest] xRoma47x opened the AngelChest of xRoma47x at Location{world=CraftWorld{name=world},x=-423.0,y=63.0,z=-232.0,pitch=0.0,yaw=0.0}
-[05:02:34] [Server thread/INFO]: [AngelChest] xRoma47x opened the AngelChest of xRoma47x at Location{world=CraftWorld{name=world},x=-423.0,y=63.0,z=-232.0,pitch=0.0,yaw=0.0}
-[05:02:37] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:02] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:03] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:05] [Server thread/INFO]: Alipsi was slain by Vex
-[05:03:11] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:11] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:17] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:26] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:29] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:03:31] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:33] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:03:35] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:03:39] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:40] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:03:43] [Server thread/INFO]: luispro110224 was slain by Alipsi
-[05:03:43] [Server thread/INFO]: Alipsi was slain by Ravager
-[05:03:45] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:47] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:03:52] [Server thread/INFO]: Alipsi was slain by Ravager
-[05:03:53] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:03:55] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:03:56] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:03:58] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:03:59] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:04:01] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:03] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:03] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:06] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:04:07] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:08] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:04:08] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:04:09] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:09] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:10] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:04:11] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:04:12] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:13] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:04:15] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:16] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:19] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:24] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:04:25] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:27] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:04:30] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:31] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:04:45] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:47] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:04:49] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:04:49] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:04:51] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:04:58] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:00] [Server thread/INFO]: Alipsi was slain by Vex
-[05:05:04] [Server thread/INFO]: Alipsi was slain by Vex
-[05:05:06] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:08] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:05:10] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:05:12] [Server thread/INFO]: Alipsi was slain by Vex
-[05:05:13] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:05:15] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:05:16] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:05:17] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:19] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:05:23] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:05:24] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:05:26] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:26] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:05:28] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:30] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:30] [Server thread/INFO]: Alipsi was slain by Vex
-[05:05:33] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:33] [Server thread/INFO]: SANS1237843 was killed by Evoker using magic
-[05:05:34] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:36] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:05:38] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:41] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:42] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:42] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:05:43] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:44] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:47] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:05:47] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:47] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:05:48] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:05:49] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:49] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:05:50] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[05:05:52] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:05:53] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:05:54] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:05:54] [Server thread/INFO]: xRoma47x was slain by Ravager
-[05:05:56] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:05:58] [Server thread/INFO]: xRoma47x was slain by Ravager
-[05:05:58] [Server thread/INFO]: Alipsi was slain by Vex
-[05:05:58] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:05:59] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:06:00] [Server thread/INFO]: SANS1237843 was slain by Ravager
-[05:06:01] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:06:01] [Server thread/INFO]: xRoma47x was slain by Ravager
-[05:06:02] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:04] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:06:07] [Server thread/INFO]: GrPatrixYT was slain by Vindicator
-[05:06:08] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:08] [Server thread/INFO]: luispro110224 was slain by Vex
-[05:06:10] [Server thread/INFO]: Alipsi was slain by Vex
-[05:06:10] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:06:12] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:15] [Server thread/INFO]: luispro110224 was slain by Ravager
-[05:06:18] [Server thread/INFO]: Alipsi was slain by Vex
-[05:06:22] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:24] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:26] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:06:30] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:31] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:06:35] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:41] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:43] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:45] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:46] [Server thread/INFO]: luispro110224 was slain by Vindicator
-[05:06:49] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:51] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:51] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:06:52] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:06:53] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:06:55] [Server thread/INFO]: [AngelChest] Alipsi opened the AngelChest of Alipsi at Location{world=CraftWorld{name=world},x=-399.0,y=64.0,z=-235.0,pitch=0.0,yaw=0.0}
-[05:06:56] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:06:58] [Server thread/INFO]: GrPatrixYT was slain by Vex
-[05:06:58] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:07:03] [Server thread/INFO]: xRoma47x was slain by Vindicator
-[05:07:03] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:07:05] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:07:09] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:07:12] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:07:14] [Server thread/INFO]: SANS1237843 was slain by Vindicator
-[05:07:18] [Server thread/INFO]: Alipsi was slain by Vindicator
-[05:07:26] [Server thread/INFO]: SANS1237843 has completed the challenge [Hero of the Village]
-[05:07:26] [Server thread/INFO]: GrPatrixYT has completed the challenge [Hero of the Village]
-[05:07:26] [Server thread/INFO]: luispro110224 has completed the challenge [Hero of the Village]
-[05:07:26] [Server thread/INFO]: Alipsi has completed the challenge [Hero of the Village]
-[05:07:26] [Server thread/INFO]: xRoma47x has completed the challenge [Hero of the Village]
-[05:07:32] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:07:35] [Server thread/INFO]: xRoma47x was slain by Vex
-[05:07:41] [Server thread/INFO]: Alipsi was slain by Zombie
-[05:07:41] [Server thread/INFO]: SANS1237843 was slain by Vex
-[05:07:46] [Server thread/INFO]: xRoma47x was slain by Zombie
-[05:07:57] [Server thread/INFO]: [AngelChest] Alipsi opened the AngelChest of Alipsi at Location{world=CraftWorld{name=world},x=-394.0,y=63.0,z=-230.0,pitch=0.0,yaw=0.0}
-[05:08:13] [Server thread/INFO]: Alipsi was slain by luispro110224
-[05:08:30] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[05:08:53] [Server thread/INFO]: SANS1237843 issued server command: /skills
-[05:09:43] [Server thread/INFO]: xRoma47x was slain by Spider
-[05:11:07] [Server thread/INFO]: SANS1237843 lost connection: Disconnected
-[05:11:07] [Server thread/INFO]: SANS1237843 left the game
-[05:11:32] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
-[05:11:47] [Server thread/INFO]: GrPatrixYT issued server command: /tp -675 72 75
-[05:11:48] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to -674.500000, 72.000000, 75.500000]
-[05:12:06] [Server thread/INFO]: Alipsi was shot by Skeleton
-[05:12:25] [Server thread/INFO]: xRoma47x was slain by Drowned
-[05:13:25] [Server thread/INFO]: luispro110224 lost connection: Disconnected
-[05:13:25] [Server thread/INFO]: luispro110224 left the game
-[05:14:10] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[05:14:10] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[05:17:51] [Server thread/INFO]: xRoma47x fell from a high place
-[05:21:47] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
-[05:21:47] [Server thread/INFO]: GrPatrixYT left the game
-[05:22:25] [User Authenticator #6/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[05:22:26] [Server thread/INFO]: GrPatrixYT joined the game
-[05:22:26] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:46243] logged in with entity id 69559 at ([world]-654.5215869460877, 79.0, 78.05272530582961)
-[05:23:09] [Server thread/INFO]: GrPatrixYT issued server command: /skill
-[05:23:12] [Server thread/INFO]: Alipsi issued server command: /skill
-[05:23:15] [Server thread/INFO]: xRoma47x issued server command: /skill
-[05:25:54] [Server thread/INFO]: xRoma47x fell from a high place
-[05:30:14] [Server thread/INFO]: GrPatrixYT has made the advancement [Fishy Business]
-[05:31:08] [Server thread/INFO]: xRoma47x was slain by Zombie
-[05:36:28] [Server thread/INFO]: GrPatrixYT issued server command: /skill
-[05:39:34] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
-[05:39:34] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
-[05:40:20] [Server thread/INFO]: xRoma47x lost connection: Disconnected
-[05:40:20] [Server thread/INFO]: xRoma47x left the game
-[05:41:58] [Server thread/INFO]: GrPatrixYT was blown up by Creeper
-[05:43:43] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
-[05:43:43] [Server thread/INFO]: GrPatrixYT left the game
-[05:45:23] [Server thread/INFO]: Alipsi was shot by Skeleton
-[05:52:16] [Server thread/INFO]: Alipsi issued server command: /ski
-[05:52:22] [Server thread/INFO]: Alipsi issued server command: /skillrank
-[05:52:40] [Server thread/INFO]: Alipsi issued server command: /skill
-[05:55:01] [Server thread/INFO]: Alipsi has made the advancement [Fishy Business]
-[06:07:00] [Server thread/INFO]: Alipsi issued server command: /skill
-[06:07:07] [Server thread/INFO]: Alipsi issued server command: /skillrank
-[06:07:18] [Server thread/INFO]: Alipsi lost connection: Disconnected
-[06:07:18] [Server thread/INFO]: Alipsi left the game
-[06:33:27] [Server thread/INFO]: [AngelChest] Removed 1 old log files.
+[15:01:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:01:38] [ServerMain/INFO]: Loaded 1290 recipes
+[15:01:38] [ServerMain/INFO]: Loaded 1399 advancements
+[15:01:39] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:01:39] [Server thread/INFO]: Loading properties
+[15:01:39] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[15:01:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:01:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:01:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:01:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[15:01:42] [Server thread/INFO]: Default game type: SURVIVAL
+[15:01:42] [Server thread/INFO]: Generating keypair
+[15:01:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:01:42] [Server thread/INFO]: Using epoll channel type
+[15:01:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:01:42] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:01:42] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[15:01:43] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[15:01:43] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[15:01:43] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
+[15:01:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:01:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[15:01:46] [Thread-0/INFO]: Stopping server
+[15:01:47] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[15:01:48] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[15:01:49] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:01:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:01:49] [Thread-0/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[15:01:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:01:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:01:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:01:49] [Server thread/INFO]: Preparing level "world"
+[15:01:49] [Thread-0/INFO]: Saving players
+[15:01:50] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Async task for SkinsRestorer v15.5.0 generated an exception
+java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:209) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:73) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.folia.FoliaSchedulerProvider.lambda$getCancellingTaskConsumer$0(FoliaSchedulerProvider.java:84) ~[SkinsRestorer.jar:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217) ~[paper-1.21.1.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[15:01:50] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+java.lang.IllegalStateException: null
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:112) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1195) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1191) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:1009) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+[15:01:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:01:53] [Server thread/INFO]: Time elapsed: 2145 ms
+[15:01:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:01:53] [Server thread/INFO]: Time elapsed: 588 ms
+[15:01:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:01:54] [Server thread/INFO]: Time elapsed: 440 ms
+[15:01:54] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[15:01:55] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[15:01:55] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[15:01:55] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[15:01:55] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[15:01:55] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[15:01:56] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:01:56] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[15:01:56] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[15:01:58] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[15:02:00] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 143 ms
+[15:02:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[15:02:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[15:02:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[15:02:00] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[15:02:01] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:02:02] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
+[15:02:02] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
+[15:02:02] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
+[15:02:02] [Server thread/INFO]: [RHLeafDecay] Info:
+[15:02:02] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
+[15:02:03] [Server thread/INFO]: [spark] Starting background profiler...
+[15:02:04] [Server thread/INFO]: Done preparing level "world" (14.102s)
+[15:02:04] [Server thread/INFO]: Running delayed init tasks
+[15:02:05] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[15:02:05] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[15:02:05] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[15:02:05] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[15:02:06] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:02:06] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[15:02:06] [Server thread/INFO]: Done (39.509s)! For help, type "help"
+[15:03:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:04:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:05:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:06:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:07:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:08:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:09:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:10:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[15:11:08] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
