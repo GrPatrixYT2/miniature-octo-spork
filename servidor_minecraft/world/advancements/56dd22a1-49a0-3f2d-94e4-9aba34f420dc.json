@@ -624,6 +624,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-12-14 04:47:55 +0000",
       "minecraft:skeleton": "2024-12-14 01:45:35 +0000",
       "minecraft:enderman": "2024-12-14 04:21:15 +0000",
       "minecraft:spider": "2024-12-14 01:50:32 +0000",
@@ -1263,6 +1264,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-12-14 04:43:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2024-12-14 04:05:45 +0000"
@@ -1417,6 +1424,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-14 02:44:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-12-14 04:43:55 +0000"
     },
     "done": true
   },
