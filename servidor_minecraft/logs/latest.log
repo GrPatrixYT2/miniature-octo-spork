@@ -1,233 +1,116 @@
-[01Dec2024 04:06:35.221] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[01Dec2024 04:06:35.226] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[01Dec2024 04:06:35.846] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[01Dec2024 04:06:36.256] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.0/fmlcore-1.19.2-43.3.0.jar is missing mods.toml file
-[01Dec2024 04:06:36.258] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.0/javafmllanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[01Dec2024 04:06:36.261] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.0/lowcodelanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[01Dec2024 04:06:36.264] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.0/mclanguage-1.19.2-43.3.0.jar is missing mods.toml file
-[01Dec2024 04:06:36.445] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[01Dec2024 04:06:36.447] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[01Dec2024 04:06:39.109] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Dec2024 04:06:39.315] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[01Dec2024 04:06:39.318] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[01Dec2024 04:06:40.127] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:40.158] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:40.394] [main/WARN] [mixin/]: Error loading class: com/min01/archaeology/item/BrushItem (java.lang.ClassNotFoundException: com.min01.archaeology.item.BrushItem)
-[01Dec2024 04:06:40.395] [main/WARN] [mixin/]: @Mixin target com.min01.archaeology.item.BrushItem was not found cataclysm.mixins.json:BrushItemMixin
-[01Dec2024 04:06:40.973] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[01Dec2024 04:06:44.493] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:44.494] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:44.502] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:44.503] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[01Dec2024 04:06:45.662] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[01Dec2024 04:06:48.002] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod mutantmonsters
-[01Dec2024 04:06:49.024] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.0, for MC 1.19.2 with MCP 20220805.130853
-[01Dec2024 04:06:49.025] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.0 Initialized
-[01Dec2024 04:06:49.429] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[01Dec2024 04:06:50.126] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[01Dec2024 04:06:50.126] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 9
-[01Dec2024 04:06:50.128] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 9 has been initalized!
-[01Dec2024 04:06:50.243] [modloading-worker-0/INFO] [de.teamlapen.vampirism.config.BalanceConfig/]: IceAndFire is loaded -> Adjusting default fire related configuration.
-[01Dec2024 04:06:50.482] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[01Dec2024 04:06:50.488] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
-[01Dec2024 04:06:50.633] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
-[01Dec2024 04:06:50.634] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
-[01Dec2024 04:06:50.635] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-client.toml
-[01Dec2024 04:06:50.635] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loading config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
-[01Dec2024 04:06:50.636] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Built config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
-[01Dec2024 04:06:50.637] [modloading-worker-0/INFO] [com.yellowbrossproductions.illageandspillage.IllageAndSpillage/]: Loaded config: /workspaces/miniature-octo-spork/servidor_minecraft/config/illageandspillage-common.toml
-[01Dec2024 04:06:50.646] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[01Dec2024 04:06:56.086] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
-[01Dec2024 04:06:56.588] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
-[01Dec2024 04:06:56.758] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[01Dec2024 04:06:56.886] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[01Dec2024 04:06:56.891] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
-[01Dec2024 04:06:57.015] [modloading-worker-0/INFO] [com.blocklegend001.onlyhammersandexcavators.OnlyHammersAndExcavators/]: Mod Loaded
-[01Dec2024 04:06:57.016] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[01Dec2024 04:06:57.117] [modloading-worker-0/INFO] [com.accbdd.simplevoiceradio.SimpleVoiceRadio/]: Setting up Simple Voice Radio
-[01Dec2024 04:06:57.128] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[01Dec2024 04:06:57.139] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[01Dec2024 04:06:57.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[01Dec2024 04:06:57.164] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
-[01Dec2024 04:06:57.165] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[01Dec2024 04:06:57.196] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
-[01Dec2024 04:06:57.201] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'simplevoiceradio'
-[01Dec2024 04:06:57.250] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[01Dec2024 04:06:57.406] [Thread-2/INFO] [de.teamlapen.lib.lib.util.VersionChecker/]: Starting version check at https://maxanier.de/projects/vampirism/versions.json
-[01Dec2024 04:06:57.677] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[01Dec2024 04:06:57.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
-[01Dec2024 04:06:57.693] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: UP_TO_DATE Current: 4.0.6 Target: null
-[01Dec2024 04:06:57.694] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[01Dec2024 04:06:57.705] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.3.7 Target: null
-[01Dec2024 04:06:57.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
-[01Dec2024 04:06:57.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.40 Target: null
-[01Dec2024 04:06:57.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Dec2024 04:06:57.727] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[01Dec2024 04:06:57.728] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[01Dec2024 04:06:57.729] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[01Dec2024 04:06:57.893] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[01Dec2024 04:06:57.896] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[01Dec2024 04:06:57.899] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[01Dec2024 04:06:57.902] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[01Dec2024 04:06:57.903] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[01Dec2024 04:06:57.987] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
-[01Dec2024 04:06:57.995] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[01Dec2024 04:06:58.014] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[01Dec2024 04:06:58.021] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[01Dec2024 04:06:58.023] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[01Dec2024 04:06:58.026] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[01Dec2024 04:06:58.037] [main/INFO] [de.teamlapen.vampirism.core.ModEffects/]: Fixing vanilla night vision potion types
-[01Dec2024 04:06:58.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.0 Target: 43.4.0
-[01Dec2024 04:06:58.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[01Dec2024 04:06:58.674] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.26 Target: null
-[01Dec2024 04:06:58.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[01Dec2024 04:06:58.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[01Dec2024 04:06:58.779] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[01Dec2024 04:06:58.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.7 Target: null
-[01Dec2024 04:06:58.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Starting version check at https://maxanier.de/projects/vampirism/versions.json
-[01Dec2024 04:06:59.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vampirism] Found status: AHEAD Current: 1.9.5 Target: null
-[01Dec2024 04:06:59.285] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[01Dec2024 04:06:59.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
-[01Dec2024 04:06:59.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[01Dec2024 04:06:59.758] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[01Dec2024 04:07:00.173] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Dec2024 04:07:00.412] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: spartanshields:wooden_basic_shield Expected: 2817 Got: 1444
-[01Dec2024 04:07:01.667] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23203!/assets/.mcassetsroot' uses unexpected schema
-[01Dec2024 04:07:01.667] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/miniature-octo-spork/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23203!/data/.mcassetsroot' uses unexpected schema
-[01Dec2024 04:07:02.604] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[01Dec2024 04:07:02.797] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[01Dec2024 04:07:03.047] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[01Dec2024 04:07:03.837] [main/INFO] [de.teamlapen.vampirism.world.biome.OverworldModifications/]: Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
-[01Dec2024 04:07:04.298] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
-[01Dec2024 04:07:05.271] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
-[01Dec2024 04:07:05.395] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
-[01Dec2024 04:07:05.492] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
-[01Dec2024 04:07:05.518] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 20 recipes
-[01Dec2024 04:07:05.519] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
-[01Dec2024 04:07:05.759] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table cataclysm:archaeology/cursed_pyramid
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecraft:archer_pottery_sherd'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.3.0-universal.jar%23208!/:?]
-	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23203!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.3.0.jar%2367!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
-[01Dec2024 04:07:05.842] [main/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
-[01Dec2024 04:07:05.857] [main/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
-[01Dec2024 04:07:05.938] [main/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
-[01Dec2024 04:07:06.061] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/prowler}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[01Dec2024 04:07:06.061] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/butcher}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[01Dec2024 04:07:06.061] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/walking_bed}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[01Dec2024 04:07:06.062] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {sons_of_sins:entities/blud}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[01Dec2024 04:07:06.063] [main/INFO] [placebo/]: Registered 0 additional loot tables.
-[01Dec2024 04:07:06.078] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 1 modifier groups
-[01Dec2024 04:07:06.138] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[01Dec2024 04:07:06.149] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/spartanshields/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[01Dec2024 04:07:06.265] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3323 advancements
-[01Dec2024 04:07:06.270] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[01Dec2024 04:07:06.287] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
-[01Dec2024 04:07:06.303] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
-[01Dec2024 04:07:06.304] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
-[01Dec2024 04:07:06.320] [main/INFO] [de.teamlapen.vampirism.entity.player.skills.SkillTree/]: Loaded 53 skill nodes
-[01Dec2024 04:07:06.350] [main/INFO] [de.teamlapen.vampirism.entity.converted.VampirismEntityRegistry/]: Registered 12 convertibles
-[01Dec2024 04:07:07.270] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 4.449644ms
-[01Dec2024 04:07:07.271] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
-[01Dec2024 04:07:07.399] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[01Dec2024 04:07:07.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[01Dec2024 04:07:07.401] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[01Dec2024 04:07:07.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Dec2024 04:07:07.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[01Dec2024 04:07:07.548] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[01Dec2024 04:07:07.672] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01Dec2024 04:07:07.673] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[01Dec2024 04:07:07.673] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01Dec2024 04:07:07.673] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[01Dec2024 04:07:07.840] [Server thread/INFO] [Framework/]: Loading server configs...
-[01Dec2024 04:07:07.847] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[01Dec2024 04:07:08.495] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Hover (#10) on the server
-[01Dec2024 04:07:08.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Dec2024 04:07:14.614] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.615] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.616] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.616] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.619] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.620] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.621] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.621] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.622] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.623] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:14.778] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Dec2024 04:07:15.278] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[01Dec2024 04:07:15.778] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[01Dec2024 04:07:16.268] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7491 ms
-[01Dec2024 04:07:16.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.587s)! For help, type "help"
-[01Dec2024 04:07:16.324] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Dec2024 04:07:16.365] [Server thread/INFO] [net.stardustlabs.structory.Structory/]: Thanks for choosing Structory!
-[01Dec2024 04:07:16.368] [Server thread/INFO] [com.accbdd.simplevoiceradio.SimpleVoiceRadio/]: Server starting
-[01Dec2024 04:07:16.373] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[01Dec2024 04:07:16.404] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[01Dec2024 04:07:16.405] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[01Dec2024 04:07:16.405] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
-[01Dec2024 04:07:16.485] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
-[01Dec2024 04:07:16.487] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
-[01Dec2024 04:07:16.488] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
-[01Dec2024 04:07:16.489] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
-[01Dec2024 04:07:16.518] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
-[01Dec2024 04:07:16.533] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[01Dec2024 04:07:16.551] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'users-negative.gl.at.ply.gg:1548'
-[01Dec2024 04:07:16.566] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1548
-[01Dec2024 04:14:09.862] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@169c2e2e[id=<null>,name=GrPatrixYT,properties={},legacy=false] (/127.101.92.249:47055) lost connection: Disconnected
+[01:31:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[01:31:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[01:31:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:31:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/RHLeafDecay-1.21_R1.jar'...
+[01:31:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/AuraSkills-2.2.6.jar'...
+[01:31:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[01:31:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/AngelChest-13.9.0.jar'...
+[01:31:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/RHLeafDecay-1.21_R1.jar' in 1000ms.
+[01:31:04] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AngelChest-13.9.0.jar' in 3381ms.
+[01:31:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuraSkills-2.2.6.jar' in 4600ms.
+[01:31:05] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 4675ms.
+[01:31:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[01:31:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - AngelChest (13.9.0), AuraSkills (2.2.6), RHLeafDecay (1.21_R1), SkinsRestorer (15.4.4)
+[01:31:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:31:15] [ServerMain/INFO]: Loaded 1290 recipes
+[01:31:16] [ServerMain/INFO]: Loaded 1399 advancements
+[01:31:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:31:16] [Server thread/INFO]: Loading properties
+[01:31:16] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[01:31:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:31:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:31:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:31:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:31:19] [Server thread/INFO]: Default game type: SURVIVAL
+[01:31:19] [Server thread/INFO]: Generating keypair
+[01:31:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:31:19] [Server thread/INFO]: Using epoll channel type
+[01:31:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:31:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:31:20] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[01:31:20] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[01:31:20] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[01:31:20] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
+[01:31:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:31:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[01:31:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:31:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[01:31:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:31:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:31:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:31:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:31:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:31:26] [Server thread/INFO]: Preparing level "world"
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.5.0) is available! Downloading update...
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[01:31:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 1270ms
+[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[01:31:29] [Server thread/INFO]: Time elapsed: 2538 ms
+[01:31:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:31:30] [Server thread/INFO]: Time elapsed: 389 ms
+[01:31:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:31:30] [Server thread/INFO]: Time elapsed: 230 ms
+[01:31:30] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[01:31:31] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[01:31:31] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[01:31:31] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[01:31:31] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[01:31:31] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[01:31:32] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:31:32] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[01:31:32] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[01:31:35] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[01:31:36] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 69 ms
+[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[01:31:37] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[01:31:37] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:31:39] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
+[01:31:39] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
+[01:31:39] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
+[01:31:39] [Server thread/INFO]: [RHLeafDecay] Info:
+[01:31:39] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
+[01:31:39] [Server thread/INFO]: [spark] Starting background profiler...
+[01:31:40] [Server thread/INFO]: Done preparing level "world" (14.040s)
+[01:31:40] [Server thread/INFO]: Running delayed init tasks
+[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[01:31:42] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:31:42] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[01:31:42] [Server thread/INFO]: Done (43.712s)! For help, type "help"
+[01:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2579ms or 51 ticks behind
+[01:31:42] [Server thread/INFO]: Timings Reset
+[01:31:45] [Server thread/INFO]: [AngelChest] ========================================================
+[01:31:45] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[01:31:45] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[01:31:45] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[01:31:45] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[01:31:45] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[01:31:45] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[01:31:45] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[01:31:45] [Server thread/INFO]: [AngelChest] 
+[01:31:45] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[01:31:45] [Server thread/INFO]: [AngelChest] ========================================================
+[01:34:23] [User Authenticator #0/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[01:34:25] [Server thread/INFO]: Alipsi joined the game
+[01:34:26] [Server thread/INFO]: Alipsi[/127.223.70.5:58825] logged in with entity id 22 at ([world]-25.5, 78.0, -71.5)
+[01:36:11] [Server thread/INFO]: Alipsi has made the advancement [Stone Age]
+[01:36:49] [Server thread/INFO]: Alipsi has made the advancement [Getting an Upgrade]
