@@ -131,3 +131,28 @@
 [01:50:42] [User Authenticator #2/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
 [01:50:45] [Server thread/INFO]: GrPatrixYT joined the game
 [01:50:45] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:56269] logged in with entity id 2707 at ([world]44.58288667565954, 70.0, -33.30000001192093)
+[01:52:33] [User Authenticator #3/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[01:52:34] [Server thread/INFO]: xRoma47x joined the game
+[01:52:34] [Server thread/INFO]: xRoma47x[/127.74.153.192:46533] logged in with entity id 3028 at ([world]-10.5, 74.0, -64.5)
+[01:52:53] [User Authenticator #3/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
+[01:52:55] [Server thread/INFO]: luispro110224 joined the game
+[01:52:55] [Server thread/INFO]: luispro110224[/127.104.189.111:51141] logged in with entity id 3071 at ([world]-8.5, 72.0, -56.5)
+[01:53:58] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> joakin
+[01:54:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> q
+[01:54:06] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> estan en discord
+[01:54:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> estoy esperando q creen
+[01:54:35] [Server thread/INFO]: xRoma47x has made the advancement [Stone Age]
+[01:54:51] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> donde estas
+[01:54:54] [Server thread/INFO]: xRoma47x has made the advancement [Getting an Upgrade]
+[01:54:55] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> te estoy llamando bb
+[01:54:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> en una mina
+[01:55:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> donde
+[01:55:10] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> por ig
+[01:58:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/op GrPatrixYT<--[HERE]
+[01:59:20] [Server thread/INFO]: Made GrPatrixYT a server operator
+[01:59:38] [Server thread/INFO]: GrPatrixYT issued server command: /difficulty hard
+[01:59:38] [Server thread/INFO]: [GrPatrixYT: The difficulty has been set to Hard]
+[02:00:19] [Server thread/INFO]: luispro110224 has made the advancement [Stone Age]
+[02:01:14] [Server thread/INFO]: xRoma47x has made the advancement [Acquire Hardware]
+[02:01:20] [Server thread/INFO]: xRoma47x has made the advancement [Suit Up]
