@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:savanna_plateau": "2024-12-14 01:56:01 +0000",
+      "minecraft:forest": "2024-12-14 03:57:07 +0000",
       "minecraft:river": "2024-12-14 03:13:25 +0000",
       "minecraft:savanna": "2024-12-14 01:52:56 +0000"
     },
@@ -722,6 +723,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-12-14 03:49:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2024-12-14 03:37:17 +0000"
@@ -818,6 +825,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2024-12-14 03:49:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2024-12-14 03:24:55 +0000"
@@ -827,6 +840,12 @@
   "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2024-12-14 03:29:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2024-12-14 03:49:06 +0000"
     },
     "done": true
   },
