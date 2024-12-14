@@ -444,3 +444,35 @@
 [04:12:06] [Server thread/INFO]: GrPatrixYT issued server command: /skill
 [04:12:14] [Server thread/INFO]: luispro110224 was slain by Zombie
 [04:12:14] [Server thread/INFO]: Alipsi issued server command: /skill
+[04:13:28] [Server thread/INFO]: Alipsi has made the advancement [We Need to Go Deeper]
+[04:14:24] [Server thread/INFO]: Villager Villager['Leatherworker'/154, uuid='e951b3b0-101d-4799-8741-c53b992c4c61', l='ServerLevel[world]', x=-404.18, y=63.00, z=-228.98, cpos=[-26, -15], tl=135465, v=true] died, message: 'Leatherworker was slain by Zombie'
+[04:14:48] [Server thread/INFO]: Villager Villager['Villager'/204, uuid='6e46bdfe-ebae-4672-bf93-b7889e7feb05', l='ServerLevel[world]', x=-386.65, y=63.00, z=-216.06, cpos=[-25, -14], tl=136024, v=true] died, message: 'Villager was slain by Zombie'
+[04:14:51] [Server thread/INFO]: Villager Villager['Weaponsmith'/38, uuid='646c9302-429c-49cd-87d7-73147ffd744d', l='ServerLevel[world]', x=-385.48, y=63.00, z=-215.59, cpos=[-25, -14], tl=137441, v=true] died, message: 'Weaponsmith was slain by Zombie'
+[04:15:49] [Server thread/INFO]: Alipsi has made the advancement [Ice Bucket Challenge]
+[04:16:05] [Server thread/INFO]: GrPatrixYT issued server command: /stats
+[04:16:18] [Server thread/INFO]: Villager Villager['Weaponsmith'/130, uuid='d56a08c9-7d74-4882-be7b-be156d9c73c0', l='ServerLevel[world]', x=-408.40, y=64.00, z=-186.48, cpos=[-26, -12], tl=139019, v=true] died, message: 'Weaponsmith was slain by Zombie'
+[04:16:20] [Async Chat Thread - #19/INFO]: [Not Secure] <GrPatrixYT> ./stats
+[04:16:27] [Server thread/INFO]: SANS1237843 issued server command: /skillrank
+[04:16:32] [Server thread/INFO]: xRoma47x issued server command: /stats
+[04:16:45] [Server thread/INFO]: SANS1237843 issued server command: /stats
+[04:16:49] [Server thread/INFO]: Alipsi was killed by Witch using magic
+[04:17:04] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:17:29] [Server thread/INFO]: SANS1237843 was slain by Zombie
+[04:17:39] [Server thread/INFO]: luispro110224 was shot by Skeleton
+[04:17:50] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:17:53] [Server thread/INFO]: GrPatrixYT issued server command: /sk lang es
+[04:18:25] [Server thread/INFO]: luispro110224 was shot by Skeleton
+[04:18:39] [Async Chat Thread - #21/INFO]: [Not Secure] <GrPatrixYT> ./sk lang es
+[04:18:48] [Server thread/INFO]: SANS1237843 issued server command: /sk lang es
+[04:18:50] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:18:55] [Async Chat Thread - #21/INFO]: [Not Secure] <Alipsi> ./sk lang es
+[04:19:13] [Server thread/INFO]: xRoma47x issued server command: /sk lang
+[04:19:25] [Server thread/INFO]: Alipsi issued server command: /sk lang
+[04:19:31] [Server thread/INFO]: xRoma47x issued server command: /sk lang es
+[04:19:38] [Server thread/INFO]: Alipsi issued server command: /sk lang es
+[04:19:49] [Server thread/INFO]: SANS1237843 was shot by Skeleton
+[04:20:16] [Server thread/INFO]: xRoma47x lost connection: Disconnected
+[04:20:16] [Server thread/INFO]: xRoma47x left the game
+[04:21:02] [User Authenticator #4/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
+[04:21:03] [Server thread/INFO]: xRoma47x joined the game
+[04:21:03] [Server thread/INFO]: xRoma47x[/127.74.153.192:44945] logged in with entity id 46307 at ([world]-620.2376716042045, 73.0, 7.715178610031067)
