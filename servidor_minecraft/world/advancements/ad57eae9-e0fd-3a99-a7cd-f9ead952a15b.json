@@ -50,10 +50,12 @@
       "minecraft:pillager": "2024-12-14 04:42:41 +0000",
       "minecraft:skeleton": "2024-12-14 02:21:03 +0000",
       "minecraft:vindicator": "2024-12-14 04:48:46 +0000",
+      "minecraft:witch": "2024-12-14 04:51:03 +0000",
       "minecraft:spider": "2024-12-14 01:52:27 +0000",
       "minecraft:zombie": "2024-12-14 01:44:51 +0000",
       "minecraft:creeper": "2024-12-14 02:54:25 +0000",
-      "minecraft:zombie_villager": "2024-12-14 02:52:27 +0000"
+      "minecraft:zombie_villager": "2024-12-14 02:52:27 +0000",
+      "minecraft:evoker": "2024-12-14 04:54:19 +0000"
     },
     "done": false
   },
@@ -1707,9 +1709,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-14 04:55:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-14 04:57:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-14 04:54:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2024-12-14 04:42:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-14 04:57:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-12-14 04:54:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-12-14 04:57:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-12-14 04:51:04 +0000"
     },
     "done": true
   },

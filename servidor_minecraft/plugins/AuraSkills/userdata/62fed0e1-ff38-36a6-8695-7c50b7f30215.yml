@@ -5,13 +5,13 @@ skills:
     xp: 60.30000000000007
   auraskills/archery:
     level: 0
-    xp: 0.0
+    xp: 10.0
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/farming:
     level: 3
-    xp: 412.8000000000003
+    xp: 438.1000000000003
   auraskills/foraging:
     level: 4
     xp: 477.67999999999876
@@ -19,8 +19,8 @@ skills:
     level: 1
     xp: 18.09999999999999
   auraskills/defense:
-    level: 5
-    xp: 2547.716958642001
+    level: 6
+    xp: 740.5419586420011
   auraskills/alchemy:
     level: 0
     xp: 0.0
@@ -29,10 +29,10 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 3
-    xp: 610.2489999999999
+    xp: 769.2229999999998
   auraskills/fighting:
     level: 5
-    xp: 1014.2000000000007
+    xp: 1096.7000000000007
 mana: 24.0
 action_bar:
   idle: true
@@ -50,3 +50,6 @@ trait_modifiers:
     name: farming_luck_ability
     trait: auraskills/farming_luck
     value: 10.0
+ability_data:
+  auraskills/first_strike:
+    counter: 0

@@ -28,6 +28,7 @@
       "minecraft:enderman": "2024-12-14 02:54:48 +0000",
       "minecraft:witch": "2024-12-14 04:51:10 +0000",
       "minecraft:spider": "2024-12-14 02:49:17 +0000",
+      "minecraft:vex": "2024-12-14 04:57:39 +0000",
       "minecraft:zombie": "2024-12-14 02:34:51 +0000",
       "minecraft:creeper": "2024-12-14 03:09:30 +0000",
       "minecraft:drowned": "2024-12-14 02:55:03 +0000",
@@ -478,6 +479,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 05:02:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2024-12-14 02:35:25 +0000"
@@ -646,6 +653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 05:02:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2024-12-14 02:59:18 +0000"
@@ -673,6 +686,12 @@
   "minecraft:recipes/food/cooked_chicken": {
     "criteria": {
       "has_chicken": "2024-12-14 03:12:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 05:02:34 +0000"
     },
     "done": true
   },
@@ -922,6 +941,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-12-14 05:02:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2024-12-14 02:38:20 +0000"
@@ -967,6 +992,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2024-12-14 02:44:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-12-14 05:02:34 +0000"
     },
     "done": true
   },
@@ -1051,6 +1082,12 @@
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2024-12-14 03:12:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 05:02:34 +0000"
     },
     "done": true
   },

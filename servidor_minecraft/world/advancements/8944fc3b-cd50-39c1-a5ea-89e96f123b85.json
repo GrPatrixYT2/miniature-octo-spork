@@ -661,6 +661,7 @@
     "criteria": {
       "minecraft:pillager": "2024-12-14 04:48:42 +0000",
       "minecraft:skeleton": "2024-12-14 02:08:48 +0000",
+      "minecraft:vindicator": "2024-12-14 04:58:12 +0000",
       "minecraft:spider": "2024-12-14 02:21:39 +0000",
       "minecraft:zombie": "2024-12-14 02:21:30 +0000",
       "minecraft:creeper": "2024-12-14 03:46:55 +0000",
@@ -1182,6 +1183,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 04:55:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2024-12-14 04:33:47 +0000"
@@ -1239,6 +1246,18 @@
   "minecraft:recipes/building_blocks/melon": {
     "criteria": {
       "has_melon": "2024-12-14 04:33:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-14 04:58:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-12-14 04:55:45 +0000"
     },
     "done": true
   },
