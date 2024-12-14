@@ -486,3 +486,27 @@
 [04:32:36] [Server thread/INFO]: SANS1237843 issued server command: /skills
 [04:32:39] [Server thread/INFO]: GrPatrixYT issued server command: /mana
 [04:32:43] [Server thread/INFO]: Alipsi issued server command: /skill
+[04:33:39] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:35:07] [Server thread/INFO]: Alipsi was slain by luispro110224
+[04:35:21] [Server thread/INFO]: Alipsi was slain by luispro110224
+[04:35:38] [Server thread/INFO]: SANS1237843 was slain by luispro110224
+[04:35:42] [Server thread/INFO]: luispro110224 was slain by Alipsi
+[04:36:09] [Server thread/INFO]: Alipsi was slain by luispro110224
+[04:36:32] [Server thread/INFO]: luispro110224 was slain by Alipsi
+[04:36:36] [Server thread/INFO]: GrPatrixYT issued server command: /
+[04:37:01] [Server thread/INFO]: GrPatrixYT issued server command: /farming
+[04:37:04] [Server thread/INFO]: GrPatrixYT issued server command: /stats
+[04:37:27] [Server thread/INFO]: xRoma47x issued server command: /skill
+[04:37:53] [Server thread/INFO]: luispro110224 has made the advancement [A Seedy Place]
+[04:40:03] [Server thread/INFO]: GrPatrixYT lost connection: Disconnected
+[04:40:03] [Server thread/INFO]: GrPatrixYT left the game
+[04:40:30] [Server thread/INFO]: xRoma47x issued server command: /skill
+[04:40:36] [User Authenticator #5/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[04:40:40] [Server thread/INFO]: GrPatrixYT joined the game
+[04:40:40] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:54861] logged in with entity id 52481 at ([world]-654.9853077755238, 78.08374141950112, 81.91568577087865)
+[04:40:47] [Server thread/INFO]: luispro110224 has made the advancement [What a Deal!]
+[04:41:59] [Server thread/INFO]: xRoma47x issued server command: /skill
+[04:42:41] [Server thread/INFO]: GrPatrixYT has made the advancement [Voluntary Exile]
+[04:43:07] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x g
+[04:43:13] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x GrPatrixYT
+[04:43:13] [Server thread/INFO]: [GrPatrixYT: Teleported xRoma47x to GrPatrixYT]
