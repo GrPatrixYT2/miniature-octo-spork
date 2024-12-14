@@ -1217,6 +1217,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-12-14 03:01:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-14 02:44:03 +0000"
@@ -1270,6 +1276,13 @@
       "has_smelts_to_glass": "2024-12-14 02:44:03 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-14 03:03:34 +0000",
+      "minecraft:sheep": "2024-12-14 03:03:35 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
@@ -1352,6 +1365,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2024-12-14 02:36:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-14 03:03:34 +0000"
     },
     "done": true
   },
