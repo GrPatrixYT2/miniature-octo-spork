@@ -1,200 +1,147 @@
-[01:31:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[01:31:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[01:31:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:31:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/RHLeafDecay-1.21_R1.jar'...
-[01:31:00] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/AuraSkills-2.2.6.jar'...
-[01:31:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
-[01:31:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/AngelChest-13.9.0.jar'...
-[01:31:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/RHLeafDecay-1.21_R1.jar' in 1000ms.
-[01:31:04] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AngelChest-13.9.0.jar' in 3381ms.
-[01:31:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AuraSkills-2.2.6.jar' in 4600ms.
-[01:31:05] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 4675ms.
-[01:31:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
-[01:31:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
- - AngelChest (13.9.0), AuraSkills (2.2.6), RHLeafDecay (1.21_R1), SkinsRestorer (15.4.4)
-[01:31:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:31:15] [ServerMain/INFO]: Loaded 1290 recipes
-[01:31:16] [ServerMain/INFO]: Loaded 1399 advancements
-[01:31:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[01:31:16] [Server thread/INFO]: Loading properties
-[01:31:16] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[01:31:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:31:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:31:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:31:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[01:31:19] [Server thread/INFO]: Default game type: SURVIVAL
-[01:31:19] [Server thread/INFO]: Generating keypair
-[01:31:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:31:19] [Server thread/INFO]: Using epoll channel type
-[01:31:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:31:19] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:31:20] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
-[01:31:20] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[01:31:20] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
-[01:31:20] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
-[01:31:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:31:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[01:31:22] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[01:31:24] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[01:31:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[01:31:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:31:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:31:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:31:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:31:26] [Server thread/INFO]: Preparing level "world"
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.5.0) is available! Downloading update...
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[01:31:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
-[01:31:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 1270ms
-[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
-[01:31:27] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
-[01:31:29] [Server thread/INFO]: Time elapsed: 2538 ms
-[01:31:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:31:30] [Server thread/INFO]: Time elapsed: 389 ms
-[01:31:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:31:30] [Server thread/INFO]: Time elapsed: 230 ms
-[01:31:30] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
-[01:31:31] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
-[01:31:31] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
-[01:31:31] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
-[01:31:31] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
-[01:31:31] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
-[01:31:32] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
-[01:31:32] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
-[01:31:32] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
-[01:31:35] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[01:31:36] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 69 ms
-[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[01:31:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[01:31:37] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[01:31:37] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[01:31:39] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
-[01:31:39] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
-[01:31:39] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
-[01:31:39] [Server thread/INFO]: [RHLeafDecay] Info:
-[01:31:39] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
-[01:31:39] [Server thread/INFO]: [spark] Starting background profiler...
-[01:31:40] [Server thread/INFO]: Done preparing level "world" (14.040s)
-[01:31:40] [Server thread/INFO]: Running delayed init tasks
-[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[01:31:41] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[01:31:42] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:31:42] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
-[01:31:42] [Server thread/INFO]: Done (43.712s)! For help, type "help"
-[01:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2579ms or 51 ticks behind
-[01:31:42] [Server thread/INFO]: Timings Reset
-[01:31:45] [Server thread/INFO]: [AngelChest] ========================================================
-[01:31:45] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
-[01:31:45] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
-[01:31:45] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
-[01:31:45] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
-[01:31:45] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
-[01:31:45] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
-[01:31:45] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
-[01:31:45] [Server thread/INFO]: [AngelChest] 
-[01:31:45] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
-[01:31:45] [Server thread/INFO]: [AngelChest] ========================================================
-[01:34:23] [User Authenticator #0/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
-[01:34:25] [Server thread/INFO]: Alipsi joined the game
-[01:34:26] [Server thread/INFO]: Alipsi[/127.223.70.5:58825] logged in with entity id 22 at ([world]-25.5, 78.0, -71.5)
-[01:36:11] [Server thread/INFO]: Alipsi has made the advancement [Stone Age]
-[01:36:49] [Server thread/INFO]: Alipsi has made the advancement [Getting an Upgrade]
-[01:42:13] [Server thread/INFO]: Alipsi has made the advancement [Acquire Hardware]
-[01:43:10] [User Authenticator #1/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[01:43:12] [Server thread/INFO]: GrPatrixYT joined the game
-[01:43:12] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:52207] logged in with entity id 1574 at ([world]-19.5, 75.0, -61.5)
-[01:44:51] [Server thread/INFO]: GrPatrixYT has made the advancement [Monster Hunter]
-[01:45:02] [Server thread/INFO]: Alipsi has made the advancement [Monster Hunter]
-[01:45:32] [Server thread/INFO]: Alipsi has made the advancement [Not Today, Thank You]
-[01:46:09] [Server thread/INFO]: GrPatrixYT has made the advancement [Stone Age]
-[01:47:14] [Server thread/INFO]: GrPatrixYT has made the advancement [Getting an Upgrade]
-[01:47:21] [Server thread/INFO]: Alipsi has made the advancement [Suit Up]
-[01:48:03] [Server thread/INFO]: Alipsi has made the advancement [Isn't It Iron Pick]
-[01:49:58] [Server thread/INFO]: GrPatrixYT lost connection: Timed out
-[01:49:58] [Server thread/INFO]: GrPatrixYT left the game
-[01:50:37] [Server thread/INFO]: Alipsi has made the advancement [Diamonds!]
-[01:50:42] [User Authenticator #2/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
-[01:50:45] [Server thread/INFO]: GrPatrixYT joined the game
-[01:50:45] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:56269] logged in with entity id 2707 at ([world]44.58288667565954, 70.0, -33.30000001192093)
-[01:52:33] [User Authenticator #3/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
-[01:52:34] [Server thread/INFO]: xRoma47x joined the game
-[01:52:34] [Server thread/INFO]: xRoma47x[/127.74.153.192:46533] logged in with entity id 3028 at ([world]-10.5, 74.0, -64.5)
-[01:52:53] [User Authenticator #3/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
-[01:52:55] [Server thread/INFO]: luispro110224 joined the game
-[01:52:55] [Server thread/INFO]: luispro110224[/127.104.189.111:51141] logged in with entity id 3071 at ([world]-8.5, 72.0, -56.5)
-[01:53:58] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> joakin
-[01:54:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> q
-[01:54:06] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> estan en discord
-[01:54:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> estoy esperando q creen
-[01:54:35] [Server thread/INFO]: xRoma47x has made the advancement [Stone Age]
-[01:54:51] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> donde estas
-[01:54:54] [Server thread/INFO]: xRoma47x has made the advancement [Getting an Upgrade]
-[01:54:55] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> te estoy llamando bb
-[01:54:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> en una mina
-[01:55:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Alipsi> donde
-[01:55:10] [Async Chat Thread - #0/INFO]: [Not Secure] <luispro110224> por ig
-[01:58:47] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/op GrPatrixYT<--[HERE]
-[01:59:20] [Server thread/INFO]: Made GrPatrixYT a server operator
-[01:59:38] [Server thread/INFO]: GrPatrixYT issued server command: /difficulty hard
-[01:59:38] [Server thread/INFO]: [GrPatrixYT: The difficulty has been set to Hard]
-[02:00:19] [Server thread/INFO]: luispro110224 has made the advancement [Stone Age]
-[02:01:14] [Server thread/INFO]: xRoma47x has made the advancement [Acquire Hardware]
-[02:01:20] [Server thread/INFO]: xRoma47x has made the advancement [Suit Up]
-[02:03:14] [Server thread/INFO]: Alipsi was slain by Zombie
-[02:03:45] [Server thread/INFO]: luispro110224 lost connection: Disconnected
-[02:03:45] [Server thread/INFO]: luispro110224 left the game
-[02:03:56] [Server thread/INFO]: xRoma47x has made the advancement [Isn't It Iron Pick]
-[02:04:08] [User Authenticator #4/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
-[02:04:09] [Server thread/INFO]: luispro110224 joined the game
-[02:04:09] [Server thread/INFO]: luispro110224[/127.104.189.111:42697] logged in with entity id 5351 at ([world]-87.52999870052055, 54.0, -199.13227611871272)
-[02:05:42] [Server thread/INFO]: Alipsi tried to swim in lava
-[02:05:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Alipsi> t+
-[02:05:48] [Server thread/INFO]: luispro110224 has made the advancement [Getting an Upgrade]
-[02:07:19] [User Authenticator #5/INFO]: UUID of player SANS1237843 is 62fed0e1-ff38-36a6-8695-7c50b7f30215
-[02:07:21] [Server thread/INFO]: SANS1237843 joined the game
-[02:07:21] [Server thread/INFO]: SANS1237843[/127.125.248.218:41329] logged in with entity id 6157 at ([world]-15.5, 74.0, -62.5)
-[02:08:38] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[02:08:41] [Server thread/INFO]: xRoma47x has made the advancement [Not Today, Thank You]
-[02:08:48] [Server thread/INFO]: xRoma47x has made the advancement [Monster Hunter]
-[02:08:55] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[02:08:58] [Server thread/INFO]: Alipsi tried to swim in lava
-[02:09:09] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[02:09:27] [Server thread/INFO]: SANS1237843 was shot by Skeleton
-[02:09:28] [Server thread/INFO]: SANS1237843 has made the advancement [Monster Hunter]
-[02:11:33] [Server thread/INFO]: GrPatrixYT has made the advancement [Acquire Hardware]
-[02:12:39] [Server thread/INFO]: GrPatrixYT issued server command: /msg xRoma47x -381 -229
-[02:12:52] [Server thread/INFO]: GrPatrixYT issued server command: /tp x
-[02:12:52] [Async Chat Thread - #5/INFO]: [Not Secure] <xRoma47x> juan
-[02:12:56] [Async Chat Thread - #5/INFO]: [Not Secure] <SANS1237843> dime
-[02:12:56] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x
-[02:12:56] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to xRoma47x]
-[02:13:04] [Async Chat Thread - #5/INFO]: [Not Secure] <xRoma47x> tras
-[02:13:13] [Async Chat Thread - #5/INFO]: [Not Secure] <GrPatrixYT> wenas
-[02:13:23] [Async Chat Thread - #5/INFO]: [Not Secure] <SANS1237843> wenas
-[02:13:31] [Server thread/INFO]: luispro110224 has made the advancement [Acquire Hardware]
-[02:14:08] [Server thread/INFO]: SANS1237843 has made the advancement [Stone Age]
-[02:15:00] [Server thread/INFO]: GrPatrixYT issued server command: /tp xRoma47x
-[02:15:00] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to xRoma47x]
-[02:21:01] [Server thread/INFO]: luispro110224 has made the advancement [Isn't It Iron Pick]
-[02:21:05] [Server thread/INFO]: SANS1237843 has made the advancement [Sweet Dreams]
-[02:21:11] [Server thread/INFO]: Alipsi has made the advancement [Sweet Dreams]
-[02:21:15] [Server thread/INFO]: luispro110224 has made the advancement [Sweet Dreams]
-[02:21:22] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
-[02:21:41] [Async Chat Thread - #6/INFO]: [Not Secure] <SANS1237843> xRoma47x duerme
-[02:21:50] [Async Chat Thread - #6/INFO]: [Not Secure] <xRoma47x> i dont have bed
+[02:32:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[02:32:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[02:32:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:32:13] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[02:32:19] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 6125ms.
+[02:32:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[02:32:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - AngelChest (13.9.0), AuraSkills (2.2.6), RHLeafDecay (1.21_R1), SkinsRestorer (15.5.0)
+[02:32:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:32:40] [ServerMain/INFO]: Loaded 1290 recipes
+[02:32:41] [ServerMain/INFO]: Loaded 1399 advancements
+[02:32:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:32:41] [Server thread/INFO]: Loading properties
+[02:32:41] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[02:32:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:32:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:32:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:32:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[02:32:46] [Server thread/INFO]: Default game type: SURVIVAL
+[02:32:46] [Server thread/INFO]: Generating keypair
+[02:32:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:32:46] [Server thread/INFO]: Using epoll channel type
+[02:32:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:32:46] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[02:32:48] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.0
+[02:32:48] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[02:32:48] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.2.6
+[02:32:48] [Server thread/INFO]: [RHLeafDecay] Loading server plugin RHLeafDecay v1.21_R1
+[02:32:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:32:48] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[02:32:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[02:32:53] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[02:32:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[02:32:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:32:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:32:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:32:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:32:57] [Server thread/INFO]: Preparing level "world"
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[02:32:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[02:32:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:33:02] [Server thread/INFO]: Time elapsed: 3523 ms
+[02:33:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:33:03] [Server thread/INFO]: Time elapsed: 736 ms
+[02:33:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:33:03] [Server thread/INFO]: Time elapsed: 724 ms
+[02:33:03] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.0
+[02:33:05] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[02:33:05] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[02:33:06] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[02:33:06] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[02:33:06] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[02:33:07] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[02:33:07] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.0 (Premium: false)
+[02:33:07] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.6
+[02:33:11] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[02:33:13] [Server thread/INFO]: [AuraSkills] Loaded 150 config options in 232 ms
+[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[02:33:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[02:33:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[02:33:15] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[02:33:17] [Server thread/INFO]: [RHLeafDecay] Enabling RHLeafDecay v1.21_R1
+[02:33:17] [Server thread/INFO]: [RHLeafDecay] The plugin has been loaded!
+[02:33:17] [Server thread/INFO]: [RHLeafDecay] You are using version 1.21_R1 /w 💕 by X0R3
+[02:33:17] [Server thread/INFO]: [RHLeafDecay] Info:
+[02:33:17] [Server thread/INFO]: [RHLeafDecay] If you want your server be presented on the plugin page, then please contact me! :)
+[02:33:17] [Server thread/INFO]: [spark] Starting background profiler...
+[02:33:18] [Server thread/INFO]: Done preparing level "world" (21.251s)
+[02:33:18] [Server thread/INFO]: Running delayed init tasks
+[02:33:19] [User Authenticator #0/INFO]: UUID of player SANS1237843 is 62fed0e1-ff38-36a6-8695-7c50b7f30215
+[02:33:19] [User Authenticator #1/INFO]: UUID of player luispro110224 is 78b4080c-845d-323f-8618-f1d0e4fe510a
+[02:33:20] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[02:33:20] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[02:33:21] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[02:33:21] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[02:33:22] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:33:22] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[02:33:22] [Server thread/INFO]: Done (76.868s)! For help, type "help"
+[02:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3468ms or 69 ticks behind
+[02:33:22] [Server thread/INFO]: Timings Reset
+[02:33:24] [Server thread/INFO]: luispro110224 joined the game
+[02:33:26] [Server thread/INFO]: luispro110224[/127.104.189.111:38923] logged in with entity id 30 at ([world]-90.5, 47.6875, -143.5)
+[02:33:26] [Server thread/INFO]: SANS1237843 joined the game
+[02:33:26] [Server thread/INFO]: SANS1237843[/127.125.248.218:51865] logged in with entity id 29 at ([world]-403.3301845001045, 63.0, -227.30000001192093)
+[02:33:27] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 36d87554-4418-4c0f-8971-bc63c010f741, mapped to Bat['Bat'/58, uuid='36d87554-4418-4c0f-8971-bc63c010f741', l='ServerLevel[world]', x=-123.64, y=-50.67, z=-130.36, cpos=[-8, -9], tl=664, v=true], can't add Bat['Bat'/62, uuid='36d87554-4418-4c0f-8971-bc63c010f741', l='ServerLevel[world]', x=-128.56, y=-49.13, z=-128.97, cpos=[-9, -9], tl=772, v=false]
+[02:33:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6a6f62b1-30a5-405d-9adf-8ca664b62584, mapped to Bat['Bat'/107, uuid='6a6f62b1-30a5-405d-9adf-8ca664b62584', l='ServerLevel[world]', x=3.72, y=-0.54, z=-129.45, cpos=[0, -9], tl=270, v=true], can't add Bat['Bat'/112, uuid='6a6f62b1-30a5-405d-9adf-8ca664b62584', l='ServerLevel[world]', x=2.55, y=3.30, z=-126.34, cpos=[0, -8], tl=175, v=false]
+[02:33:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7c07967c-5720-4993-9461-f8a9a8b21422, mapped to Chicken['Chicken'/93, uuid='7c07967c-5720-4993-9461-f8a9a8b21422', l='ServerLevel[world]', x=-391.43, y=66.00, z=-239.52, cpos=[-25, -15], tl=15522, v=true], can't add Chicken['Chicken'/140, uuid='7c07967c-5720-4993-9461-f8a9a8b21422', l='ServerLevel[world]', x=-390.78, y=66.00, z=-242.12, cpos=[-25, -16], tl=15785, v=false]
+[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd0d915f-5eea-40d1-869b-4522f6652abb, mapped to Bat['Bat'/146, uuid='cd0d915f-5eea-40d1-869b-4522f6652abb', l='ServerLevel[world]', x=-403.48, y=-3.55, z=-195.46, cpos=[-26, -13], tl=216, v=true], can't add Bat['Bat'/176, uuid='cd0d915f-5eea-40d1-869b-4522f6652abb', l='ServerLevel[world]', x=-400.29, y=-5.24, z=-189.74, cpos=[-26, -12], tl=17, v=false]
+[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cd3e99ba-4190-4325-bcf7-768421107ace, mapped to Bat['Bat'/187, uuid='cd3e99ba-4190-4325-bcf7-768421107ace', l='ServerLevel[world]', x=-347.42, y=-31.93, z=-236.56, cpos=[-22, -15], tl=235, v=true], can't add Bat['Bat'/223, uuid='cd3e99ba-4190-4325-bcf7-768421107ace', l='ServerLevel[world]', x=-348.51, y=-26.94, z=-243.15, cpos=[-22, -16], tl=498, v=false]
+[02:33:29] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f914b1fa-19d6-4f1b-b68c-df9892e1bcd0, mapped to Bat['Bat'/229, uuid='f914b1fa-19d6-4f1b-b68c-df9892e1bcd0', l='ServerLevel[world]', x=-394.54, y=-14.15, z=-294.30, cpos=[-25, -19], tl=1057, v=true], can't add Bat['Bat'/232, uuid='f914b1fa-19d6-4f1b-b68c-df9892e1bcd0', l='ServerLevel[world]', x=-390.34, y=-13.36, z=-309.64, cpos=[-25, -20], tl=1554, v=false]
+[02:33:30] [Server thread/INFO]: [AngelChest] ========================================================
+[02:33:30] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[02:33:30] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[02:33:30] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[02:33:30] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[02:33:30] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[02:33:30] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[02:33:30] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[02:33:30] [Server thread/INFO]: [AngelChest] 
+[02:33:30] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[02:33:30] [Server thread/INFO]: [AngelChest] ========================================================
+[02:33:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45b20bef-f900-4e95-84d5-e3a5fd0e7ee4, mapped to Bat['Bat'/303, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=42.84, y=16.04, z=-183.30, cpos=[2, -12], tl=223, v=true], can't add Bat['Bat'/305, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=49.64, y=17.80, z=-184.89, cpos=[3, -12], tl=445, v=false]
+[02:33:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 45b20bef-f900-4e95-84d5-e3a5fd0e7ee4, mapped to Bat['Bat'/303, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=42.84, y=16.04, z=-183.30, cpos=[2, -12], tl=223, v=true], can't add Bat['Bat'/363, uuid='45b20bef-f900-4e95-84d5-e3a5fd0e7ee4', l='ServerLevel[world]', x=54.51, y=16.80, z=-193.16, cpos=[3, -13], tl=504, v=false]
+[02:33:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 27473068-a499-43b7-b33c-f2bbd1562cc6, mapped to Turtle['Turtle'/370, uuid='27473068-a499-43b7-b33c-f2bbd1562cc6', l='ServerLevel[world]', x=-429.90, y=56.55, z=-93.51, cpos=[-27, -6], tl=15121, v=true], can't add Turtle['Turtle'/372, uuid='27473068-a499-43b7-b33c-f2bbd1562cc6', l='ServerLevel[world]', x=-433.90, y=60.39, z=-97.12, cpos=[-28, -7], tl=15198, v=false]
+[02:33:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 44be52ac-8bf6-4b06-b921-19539fff32e9, mapped to Cow['Cow'/357, uuid='44be52ac-8bf6-4b06-b921-19539fff32e9', l='ServerLevel[world]', x=-159.29, y=69.00, z=-286.35, cpos=[-10, -18], tl=38554, v=true], can't add Cow['Cow'/396, uuid='44be52ac-8bf6-4b06-b921-19539fff32e9', l='ServerLevel[world]', x=-170.00, y=74.00, z=-289.00, cpos=[-11, -19], tl=34894, v=false]
+[02:33:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d7a7bd67-8866-465c-9151-e5ccdb8ac403, mapped to Armadillo['Armadillo'/394, uuid='d7a7bd67-8866-465c-9151-e5ccdb8ac403', l='ServerLevel[world]', x=-145.76, y=76.00, z=-304.24, cpos=[-10, -20], tl=38209, v=true], can't add Armadillo['Armadillo'/397, uuid='d7a7bd67-8866-465c-9151-e5ccdb8ac403', l='ServerLevel[world]', x=-173.04, y=74.00, z=-292.10, cpos=[-11, -19], tl=34173, v=false]
+[02:33:33] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 51bd9359-e1d1-4010-bdab-3fb385d4be30, mapped to Turtle['Turtle'/413, uuid='51bd9359-e1d1-4010-bdab-3fb385d4be30', l='ServerLevel[world]', x=-495.26, y=59.97, z=-124.61, cpos=[-31, -8], tl=15393, v=true], can't add Turtle['Turtle'/435, uuid='51bd9359-e1d1-4010-bdab-3fb385d4be30', l='ServerLevel[world]', x=-497.46, y=60.00, z=-120.15, cpos=[-32, -8], tl=15445, v=false]
+[02:33:33] [User Authenticator #1/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[02:33:35] [Server thread/INFO]: GrPatrixYT joined the game
+[02:33:35] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:56113] logged in with entity id 438 at ([world]36.5834450163023, 6.0, -201.59489942932996)
+[02:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4761ms or 95 ticks behind
+[02:33:44] [Server thread/INFO]: SANS1237843 was shot by Skeleton
+[02:34:05] [User Authenticator #1/INFO]: UUID of player Alipsi is 56dd22a1-49a0-3f2d-94e4-9aba34f420dc
+[02:34:07] [Server thread/INFO]: Alipsi joined the game
+[02:34:07] [Server thread/INFO]: Alipsi[/127.223.70.5:58953] logged in with entity id 1027 at ([world]-415.69413475942116, 63.0, -233.04890903068804)
+[02:35:50] [Server thread/INFO]: GrPatrixYT has made the advancement [Not Today, Thank You]
+[02:35:58] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
+[02:36:38] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8c597f6f-f67d-47dc-9d32-b084fc093a64, mapped to Wolf['Wolf'/1465, uuid='8c597f6f-f67d-47dc-9d32-b084fc093a64', l='ServerLevel[world]', x=-272.30, y=71.00, z=-444.70, cpos=[-18, -28], tl=3813, v=true], can't add Wolf['Wolf'/2197, uuid='8c597f6f-f67d-47dc-9d32-b084fc093a64', l='ServerLevel[world]', x=-268.91, y=71.00, z=-448.07, cpos=[-17, -29], tl=50, v=false]
+[02:37:41] [Server thread/INFO]: GrPatrixYT was shot by Skeleton
+[02:39:33] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2b67544c-e31d-482c-95fe-8bc7cbecdafe, mapped to Chicken['Chicken'/2877, uuid='2b67544c-e31d-482c-95fe-8bc7cbecdafe', l='ServerLevel[world]', x=-181.00, y=76.00, z=-463.60, cpos=[-12, -29], tl=1675, v=true], can't add Chicken['Chicken'/3019, uuid='2b67544c-e31d-482c-95fe-8bc7cbecdafe', l='ServerLevel[world]', x=-163.28, y=71.06, z=-440.28, cpos=[-11, -28], tl=5157, v=false]
+[02:42:08] [Server thread/INFO]: SANS1237843 has made the advancement [Acquire Hardware]
+[02:42:09] [Server thread/INFO]: GrPatrixYT issued server command: /tp 63 8 -284
+[02:42:09] [Server thread/INFO]: [GrPatrixYT: Teleported GrPatrixYT to 63.500000, 8.000000, -283.500000]
+[02:43:30] [Server thread/INFO]: GrPatrixYT lost connection: Timed out
+[02:43:30] [Server thread/INFO]: GrPatrixYT left the game
+[02:43:40] [User Authenticator #2/INFO]: UUID of player GrPatrixYT is ad57eae9-e0fd-3a99-a7cd-f9ead952a15b
+[02:43:41] [Server thread/INFO]: GrPatrixYT joined the game
+[02:43:41] [Server thread/INFO]: GrPatrixYT[/127.69.67.230:46373] logged in with entity id 4324 at ([world]60.957700948211354, 8.0, -276.95707846764464)
+[02:44:33] [Server thread/INFO]: Alipsi has made the advancement [A Seedy Place]
+[02:44:48] [Server thread/INFO]: SANS1237843 has made the advancement [What a Deal!]
+[02:45:37] [Server thread/INFO]: GrPatrixYT has made the advancement [Suit Up]
+[02:46:39] [Server thread/INFO]: Alipsi has made the advancement [What a Deal!]
+[02:50:20] [Server thread/INFO]: GrPatrixYT has made the advancement [Diamonds!]
+[02:50:25] [Server thread/INFO]: SANS1237843 has made the advancement [Not Today, Thank You]
+[02:50:58] [Server thread/INFO]: Alipsi was shot by Skeleton
