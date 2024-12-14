@@ -625,6 +625,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-14 01:45:35 +0000",
+      "minecraft:enderman": "2024-12-14 04:21:15 +0000",
       "minecraft:spider": "2024-12-14 01:50:32 +0000",
       "minecraft:zombie": "2024-12-14 01:45:02 +0000",
       "minecraft:drowned": "2024-12-14 03:10:53 +0000",
@@ -1238,6 +1239,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/orange_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-14 02:44:03 +0000"
@@ -1247,6 +1254,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-14 04:05:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
     },
     "done": true
   },
@@ -1353,6 +1366,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-12-14 04:15:49 +0000"
@@ -1368,6 +1387,18 @@
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-14 02:44:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
     },
     "done": true
   },
@@ -1401,6 +1432,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-14 02:44:03 +0000"
@@ -1431,6 +1468,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2024-12-14 04:15:49 +0000"
@@ -1440,6 +1483,18 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2024-12-14 02:46:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-12-14 04:20:27 +0000"
     },
     "done": true
   },

@@ -476,3 +476,13 @@
 [04:21:02] [User Authenticator #4/INFO]: UUID of player xRoma47x is 8944fc3b-cd50-39c1-a5ea-89e96f123b85
 [04:21:03] [Server thread/INFO]: xRoma47x joined the game
 [04:21:03] [Server thread/INFO]: xRoma47x[/127.74.153.192:44945] logged in with entity id 46307 at ([world]-620.2376716042045, 73.0, 7.715178610031067)
+[04:26:47] [Server thread/INFO]: GrPatrixYT issued server command: /skill
+[04:28:26] [Async Chat Thread - #23/INFO]: [Not Secure] <SANS1237843> -404 62 -213
+[04:28:44] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 -404 50000 -213
+[04:28:44] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to -403.500000, 50000.000000, -212.500000]
+[04:29:21] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:31:22] [Server thread/INFO]: GrPatrixYT issued server command: /tp luispro110224 -404 1000 -213
+[04:31:22] [Server thread/INFO]: [GrPatrixYT: Teleported luispro110224 to -403.500000, 1000.000000, -212.500000]
+[04:32:36] [Server thread/INFO]: SANS1237843 issued server command: /skills
+[04:32:39] [Server thread/INFO]: GrPatrixYT issued server command: /mana
+[04:32:43] [Server thread/INFO]: Alipsi issued server command: /skill
