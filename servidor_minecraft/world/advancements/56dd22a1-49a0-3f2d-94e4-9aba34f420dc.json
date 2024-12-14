@@ -113,9 +113,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-12-14 02:12:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_chestplate": "2024-12-14 01:47:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-12-14 02:12:58 +0000"
     },
     "done": true
   },
@@ -257,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-12-14 02:12:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-12-14 01:36:11 +0000"
@@ -266,6 +284,12 @@
   "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
       "has_raw_iron": "2024-12-14 01:40:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-12-14 02:12:58 +0000"
     },
     "done": true
   },
@@ -323,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2024-12-14 02:12:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2024-12-14 01:42:13 +0000"
@@ -332,6 +362,12 @@
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2024-12-14 01:50:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-12-14 02:12:48 +0000"
     },
     "done": true
   },
@@ -443,6 +479,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-12-14 02:12:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-12-14 02:17:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-14 01:42:08 +0000"
@@ -491,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-12-14 02:12:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 01:48:39 +0000"
@@ -536,6 +590,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2024-12-14 01:54:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-12-14 02:18:45 +0000"
     },
     "done": true
   },
@@ -661,6 +721,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-12-14 02:11:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2024-12-14 01:42:13 +0000"
@@ -741,7 +807,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2024-12-14 02:14:44 +0000",
       "minecraft:desert": "2024-12-14 02:02:23 +0000",
+      "minecraft:forest": "2024-12-14 02:16:58 +0000",
+      "minecraft:river": "2024-12-14 02:13:17 +0000",
       "minecraft:stony_shore": "2024-12-14 01:38:49 +0000",
       "minecraft:savanna": "2024-12-14 01:34:27 +0000",
       "minecraft:warm_ocean": "2024-12-14 02:07:54 +0000"
@@ -787,6 +856,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2024-12-14 01:36:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-14 02:12:58 +0000"
     },
     "done": true
   },
@@ -917,6 +992,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-12-14 02:12:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-14 01:50:37 +0000"
@@ -980,6 +1061,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-14 01:48:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-12-14 02:11:28 +0000"
     },
     "done": true
   },
